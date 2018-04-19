@@ -8,6 +8,7 @@ Doing research in our lab requires a wide variety of skills. These days you can 
 
 - [Git Basics](skills/git-basics.md)
 - [Palmetto Cluster](skills/palmetto-cluster.md)
+- [Python Tools](skills/python-tools.md)
 
 ### Projects
 
@@ -32,15 +33,6 @@ Machine Learning
 - [Neural networks and deep learning](http://neuralnetworksanddeeplearning.com/)
 - [Deep Learning Book](http://www.deeplearningbook.org/)
 - [Deep Learning](http://deeplearning.net/)
-
-Software
-- [Anaconda](https://www.anaconda.com/)
-- [numpy](http://www.numpy.org/)
-- [pandas](http://pandas.pydata.org/)
-- [scikit-image](http://scikit-image.org/)
-- [scikit-learn](http://scikit-learn.org/)
-- [seaborn](http://seaborn.pydata.org/)
-- [TensorFlow](https://www.tensorflow.org/)
 
 Stuff n' Things
 - [Deep Playground](http://playground.tensorflow.org/)
