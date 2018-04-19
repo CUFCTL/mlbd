@@ -1,0 +1,81 @@
+## Palmetto Cluster
+
+The Palmetto Cluster is Clemson's high-performance computing cluster. In our lab we use Palmetto extensively to run experiments that we can't run on our own machines. If you do not already have a Palmetto account, you can apply for one [here](https://citi.sites.clemson.edu/new-account/). Full documentation on Palmetto can be found [here](https://www.palmetto.clemson.edu/palmetto/).
+
+### Logging into Palmetto
+
+Once you have an account, you can access Palmetto through SSH with your Clemson username and password:
+```
+ssh <username>@user.palmetto.clemson.edu
+```
+
+__NOTE__: The login node is not intended for compute-heavy tasks! Please read the __Jobs__ section to learn how to login to compute nodes. Also, your home directory should not be used for jobs. Please read the __Data Storage__ section to learn how to use the scratch directories.
+
+### Jobs
+
+When you log into Palmetto, you will be on the "login node", which should be used only for simple tasks such as moving files around. For more compute-intensive tasks such as building software (e.g. running `make`) and running the face recognition system, you need to first login to a compute node, which can be done by submitting jobs. IF you try to run something on the login node that takes too long, it will be terminated.
+
+#### Interactive jobs
+
+The easiest way to login to a compute node is to run `qsub -I`. When the node is ready, your shell prompt will change to something like `nodeXXXX` and you will be able to run whatever you want. This command is equivalent to the following:
+```
+qsub -I -l select=1:ncpus=1:ngpus=0:mem=1gb,walltime=0:30:00
+```
+
+So you can adjust this syntax to request the resources that you need. Below is a good alias to add to your `.bashrc` for logging into a node with a GPU:
+```
+alias k40='qsub -I -l select=1:ncpus=8:ngpus=1:mem=16gb:gpu_model=k40,walltime=02:00:00'
+```
+
+#### Batch jobs
+
+You can also run `qsub example.pbs`, where `example.pbs` is a shell script with a few PBS directives at the top to specify the resources, like so:
+```
+#PBS -N example
+#PBS -l select=1:ncpus=1:mem=2gb,walltime=00:10:00
+
+pwd
+env
+module list
+```
+
+You can use `qstat` to view the status of your jobs, like so:
+```
+qstat -xu $USER
+```
+
+More information can be found in the Palmetto documentation.
+
+### Data Storage
+
+When you are logged in, your default directory is your home directory `/home/$USER`. You can use this directory for long-term storage; however, you should not run jobs (or other tasks that perform I/O) in your home directory. Instead, use the scratch directories located at `/scratch2/$USER` and `/scratch3/$USER`. There is also a `/scratch1` but it is a parallel filesystem, which we do not need currently.
+
+The downside of the scratch directories is that they will not keep your data permanently; however, as long as you work on your data at least once every 30 days, you will not lose it. You can also backup your data in your home directory from time to time.
+
+Below are a few aliases that are useful to have in your `.bashrc`. This script is in your home directory, and it is run when you login, so this kind of setup gives you a few shortcuts when working with the scratch directories.
+```
+alias scratch2="cd /scratch2/$USER/"
+alias scratch3="cd /scratch3/$USER/"
+```
+
+### Modules
+
+Since you can't install packages on Palmetto through `apt-get`, software packages are provided as modules. Below are some simple commands to get you started:
+
+- `module avail`: list all available modules
+- `module list`: list the modules that you have installed
+- `module add [name]/[version]`: add a module to your environment
+- `module rm [name]`: remove a module from your environment
+- `module purge`: remove all modules from your environment
+
+These commands are typically very fast because they only update a few environment variables; the software packages themselves are already installed.
+
+Below are a few module commands that are useful to have in your `.bashrc`. This script is in your home directory, and it is run when you login, so this kind of setup allows you to have a few basic modules installed by default.
+```
+module purge
+module add anaconda3/4.3.0
+module add cmake
+module add cuda-toolkit/7.5.18
+module add gcc/4.8.1
+module add git
+```
