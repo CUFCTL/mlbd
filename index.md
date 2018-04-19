@@ -2,12 +2,20 @@
 
 Welcome to the FCTL creative inquiry site! This website is a repository of resources for undergraduates who want to get involved with research in our lab. In particular, our lab does research in __computer architecture__, __high-performance computing__, and __machine learning__.
 
-### Pages
+### Skills Overview
 
 Doing research in our lab requires a wide variety of skills. These days you can learn just about anything from the Internet, but here we provide a condensed set of pages that will introduce you to the skills you will need.
 
 - [Git Basics](pages/git-basics.md)
 - [Palmetto Cluster](pages/palmetto-cluster.md)
+
+### Projects
+
+We have a number of ongoing research projects that undergraduates can get involved in. More information to come!
+
+- Face recognition
+- Object detection
+- Genomic data
 
 ### External Resources
 
