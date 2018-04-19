@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
+## Welcome
 
-You can use the [editor on GitHub](https://github.com/CUFCTL/creative-inquiry/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Welcome to the FCTL creative inquiry site! This website is a repository of resources for undergraduates who want to get involved with research in our lab. In particular, our lab does research in __computer architecture__, __high-performance computing__, and __machine learning__.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Pages
 
-### Markdown
+TODO
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### External Resources
 
-```markdown
-Syntax highlighted code block
+Our research draws on a variety of fields, including high-performance computing and machine learning, and there is a wealth of resources for these topics on the Internet.
 
-# Header 1
-## Header 2
-### Header 3
+High-performance Computing
+- [CUDA Toolkit Documentation](http://docs.nvidia.com/cuda/)
+- [An Even Easier Introduction to CUDA](https://devblogs.nvidia.com/even-easier-introduction-cuda/)
+- [OpenCL Reference Pages](https://www.khronos.org/registry/OpenCL/sdk/1.2/docs/man/xhtml/)
 
-- Bulleted
-- List
+Machine Learning
+- [Machine Learning on Coursera](https://www.coursera.org/learn/machine-learning)
+- [CS231n](http://cs231n.github.io/)
+- [Neural networks and deep learning](http://neuralnetworksanddeeplearning.com/)
+- [Deep Learning Book](http://www.deeplearningbook.org/)
+- [Deep Learning](http://deeplearning.net/)
 
-1. Numbered
-2. List
+Software
+- [Anaconda](https://www.anaconda.com/)
+- [numpy](http://www.numpy.org/)
+- [pandas](http://pandas.pydata.org/)
+- [scikit-image](http://scikit-image.org/)
+- [scikit-learn](http://scikit-learn.org/)
+- [seaborn](http://seaborn.pydata.org/)
+- [TensorFlow](https://www.tensorflow.org/)
 
-**Bold** and _Italic_ and `Code` text
+Stuff n' Things
+- [Deep Playground](http://playground.tensorflow.org/)
+- [Google AI Experiments](https://experiments.withgoogle.com/ai)
 
-[Link](url) and ![Image](src)
-```
+### Contact
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CUFCTL/creative-inquiry/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Interested in joining a creative inquiry or our lab? Please contact one of the graduate students to get started:
+- Ankit Kulshrestha (akulshr@clemson.edu)
+- Ben Shealy (btsheal@clemson.edu)
+- Colin Targonski (ctargon@clemson.edu)
+- Edwin Weill (eweill@clemson.edu)
