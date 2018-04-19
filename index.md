@@ -6,9 +6,10 @@ Welcome to the FCTL creative inquiry site! This website is a repository of resou
 
 Doing research in our lab requires a wide variety of skills. These days you can learn just about anything from the Internet, but here we provide a condensed set of pages that will introduce you to the skills you will need.
 
-- [Git Basics](skills/git-basics.md)
-- [Palmetto Cluster](skills/palmetto-cluster.md)
-- [Python Tools](skills/python-tools.md)
+1. [Git Basics](skills/git-basics.md)
+2. [Palmetto Cluster](skills/palmetto-cluster.md)
+3. [Python Tools](skills/python-tools.md)
+4. [Machine Learning Basics](skills/machine-learning-basics.md)
 
 ### Projects
 
