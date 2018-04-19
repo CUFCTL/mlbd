@@ -10,12 +10,13 @@ Doing research in our lab requires a wide variety of skills. These days you can 
 2. [Palmetto Cluster](skills/palmetto-cluster.md)
 3. [Python Tools](skills/python-tools.md)
 4. [Machine Learning Basics](skills/machine-learning-basics.md)
+5. [LaTeX](skills/latex.md)
 
 ### Projects
 
 We have a number of ongoing research projects that undergraduates can get involved in. More information to come!
 
-- Face recognition
+- [Face recognition](face-recognition/)
 - Object detection
 - Genomic data
 
