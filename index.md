@@ -9,8 +9,9 @@ Doing research in our lab requires a wide variety of skills. These days you can 
 1. [Git Basics](skills/git-basics.md)
 2. [Palmetto Cluster](skills/palmetto-cluster.md)
 3. [Python Tools](skills/python-tools.md)
-4. [Machine Learning Basics](skills/machine-learning-basics.md)
-5. [LaTeX](skills/latex.md)
+4. [Jupyter Notebooks](skills/jupyter-notebooks.md)
+5. [Machine Learning Basics](skills/machine-learning-basics.md)
+6. [LaTeX](skills/latex.md)
 
 ### Projects
 
