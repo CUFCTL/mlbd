@@ -11,7 +11,8 @@ Doing research in our lab requires a wide variety of skills. These days you can 
 3. [Python](skills/python.md)
 4. [Jupyter Notebooks](skills/jupyter-notebooks.md)
 5. [Machine Learning](skills/machine-learning.md)
-6. [LaTeX](skills/latex.md)
+6. [High-performance computing](skills/hpc.md)
+7. [LaTeX](skills/latex.md)
 
 ### Projects
 
@@ -20,26 +21,6 @@ We have a number of ongoing research projects that undergraduates can get involv
 - [Face recognition](face-recognition/)
 - Object detection
 - Genomic data
-
-### External Resources
-
-Our research draws on a variety of fields, including high-performance computing and machine learning, and there is a wealth of resources for these topics on the Internet.
-
-High-performance Computing
-- [CUDA Toolkit Documentation](http://docs.nvidia.com/cuda/)
-- [An Even Easier Introduction to CUDA](https://devblogs.nvidia.com/even-easier-introduction-cuda/)
-- [OpenCL Reference Pages](https://www.khronos.org/registry/OpenCL/sdk/1.2/docs/man/xhtml/)
-
-Machine Learning
-- [Machine Learning on Coursera](https://www.coursera.org/learn/machine-learning)
-- [CS231n](http://cs231n.github.io/)
-- [Neural networks and deep learning](http://neuralnetworksanddeeplearning.com/)
-- [Deep Learning Book](http://www.deeplearningbook.org/)
-- [Deep Learning](http://deeplearning.net/)
-
-Stuff n' Things
-- [Deep Playground](http://playground.tensorflow.org/)
-- [Google AI Experiments](https://experiments.withgoogle.com/ai)
 
 ### Contact
 
