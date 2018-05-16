@@ -1,6 +1,10 @@
 ## Palmetto Cluster
 
-The Palmetto Cluster is Clemson's high-performance computing cluster. In our lab we use Palmetto extensively to run experiments that we can't run on our own machines. If you do not already have a Palmetto account, you can apply for one [here](https://citi.sites.clemson.edu/new-account/). Full documentation on Palmetto can be found [here](https://www.palmetto.clemson.edu/palmetto/).
+The Palmetto Cluster is Clemson's high-performance computing cluster. In our lab we use Palmetto extensively to run experiments that we can't run on our own machines. Full documentation on Palmetto can be found [here](https://www.palmetto.clemson.edu/palmetto/).
+
+### Getting Access to Palmetto
+
+If you do not already have a Palmetto account, you can apply for one [here](https://citi.sites.clemson.edu/new-account/). Fill out the application form as completely and accurately as possible, in particular the rank (undergraduate / graduate) and abstract (just say you're in a creative inquiry with Dr. Smith). For the usage questionaire, you will most likely be using Tensorflow, writing Python, using interactive jobs and jobs with GPUs, and you will receive startup instructions in the CI. If you fill out everything correctly, you should receive your account within a few days. Otherwise, please notify one of the CI mentors.
 
 ### Logging into Palmetto
 
@@ -9,7 +13,7 @@ Once you have an account, you can access Palmetto through SSH with your Clemson 
 ssh <username>@user.palmetto.clemson.edu
 ```
 
-__NOTE__: The login node is not intended for compute-heavy tasks! Please read the __Jobs__ section to learn how to login to compute nodes. Also, your home directory should not be used for jobs. Please read the __Data Storage__ section to learn how to use the scratch directories.
+__NOTE: The login node should not be used for compute-heavy tasks, and your home directoy has limited storage space.__ Read the __Jobs__ section to learn how to use compute nodes, and read the __Data Storage__ section to learn how to use the scratch directories.
 
 ### Jobs
 
@@ -76,6 +80,6 @@ module purge
 module add anaconda3/4.3.0
 module add cmake
 module add cuda-toolkit/7.5.18
-module add gcc/4.8.1
+module add gcc/5.4.0
 module add git
 ```
