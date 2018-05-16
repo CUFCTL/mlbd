@@ -1,6 +1,12 @@
-## Python Tools
+## Python
 
-Amidst the sea of programming languages out there, Python has become one of the most widely used languages for machine learning and data science. Many high-performance libraries such as TensorFlow are implemented in C++ but have a thin Python interface, which allows the user to have both the convenience of the Python scripting language and the performance of highly-optimized C++ code. Python also has an extensive ecosystem of packages which are easy to install, which means that whenever you need to implement something, there's a good chance that it's already been done in a Python package. If you want to be able to do anything with machine learning, Python is one of the most useful languages that you can learn.
+Amidst the sea of programming languages out there, Python has become one of the most widely used languages for machine learning and data science. Python is similar to C and is actually built upon C, but it is an interpreted language and it has a simpler syntax. More importantly, there is an extensive ecosystem of software written in Python, so whenever you need to implement something, there's a good chance that it's already been done in a Python package which can be installed with a single command.
+
+Many high-performance libraries such as TensorFlow are implemented in C++ but have a thin Python interface, which allows the user to have both the convenience of the Python scripting language and the performance of highly-optimized C++ code. Python is one of the most useful languages that you can learn today: for data analysis, data visualization, machine learning, and so on.
+
+### Learning Python
+
+Because Python is so widely used, there are a _ton_ of resources out there for learning Python. Probably any of them are good to use. I personally recommend [Codecademy](https://www.codecademy.com/) because that is where I (Ben) learned Python. They have a basic Python course which is free and interactive. Beyond that, the best way to learn is to code it yourself! Try to implement a few small projects, or take some old coding projects in other languages and port them to Python.
 
 ### Setup (Anaconda)
 
