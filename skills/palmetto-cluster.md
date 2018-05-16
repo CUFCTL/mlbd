@@ -10,7 +10,7 @@ If you do not already have a Palmetto account, you can apply for one [here](http
 
 Once you have an account, you can access Palmetto through SSH with your Clemson username and password:
 ```
-ssh <username>@user.palmetto.clemson.edu
+ssh <username>@login.palmetto.clemson.edu
 ```
 
 __NOTE: The login node should not be used for compute-heavy tasks, and your home directoy has limited storage space.__ Read the __Jobs__ section to learn how to use compute nodes, and read the __Data Storage__ section to learn how to use the scratch directories.
