@@ -28,7 +28,7 @@ qsub -I -l select=1:ncpus=1:ngpus=0:mem=1gb,walltime=0:30:00
 
 So you can adjust this syntax to request the resources that you need. Below is a good alias to add to your `.bashrc` for logging into a node with a GPU:
 ```
-alias k40='qsub -I -l select=1:ncpus=8:ngpus=1:mem=16gb:gpu_model=k40,walltime=02:00:00'
+alias gpu='qsub -I -l select=1:ncpus=8:ngpus=2:mem=16gb:gpu_model=k40,walltime=72:00:00'
 ```
 
 #### Batch jobs
@@ -83,3 +83,14 @@ module add cuda-toolkit/7.5.18
 module add gcc/5.4.0
 module add git
 ```
+
+### Transferring Data
+
+You can use `scp` to transfer data from the command-line:
+```
+scp [-r] <username>@login.palmetto.clemson.edu:<remote-path> <local-path>
+
+scp [-r] <local-path> <username>@login.palmetto.clemson.edu:<remote-path>
+```
+
+To manage file transfers from a GUI, you can use [FileZilla](https://filezilla-project.org/), an FTP client which is relatively easy to use and cross-platform.
