@@ -1,6 +1,8 @@
-## Git Basics
+## Git
 
-Git is a _very_ powerful version control system with a lot of features, so this guide will just give you the main commands to know for everyday use. You should try to learn about Git a little at a time as you go, but in the meantime, if you follow this guide you shouldn't have any trouble. More exhaustive help can be found at https://help.github.com.
+Git is a _version control system_, or an application which allows you to keep track of changes you make to a project over time. That way, you can always see what code is finished versus what code you're experimenting with, and if you make a mistake at some point you can go back to a previous version. Github is a site that hosts Git repositories; there are other sites that do the same thing, like GitLab and Bitbucket. Almost every piece of software that we use in the lab is managed as a Git repo, and almost all of them are hosted on Github or a similar site.
+
+Git is a _very_ powerful application with a lot of features, so this guide will just give you the main commands to know for everyday use. You should try to learn about Git a little at a time as you go, but in the meantime, this guide should provide everything you need. More exhaustive help can be found at https://help.github.com.
 
 ### Setup
 
@@ -47,10 +49,6 @@ git pull
 4. Before you commit your changes, you might want to `pull` again just in case someone pushed more commits while you were working.
 5. Push your commits to Github:
 ```
-# first time
-git push -u origin master
-
-# any other time
 git push
 ```
 
@@ -65,7 +63,7 @@ If you commit new changes and then try to pull, git won't let you pull! And if y
 
 ### Branching
 
-Sometimes you might want to experiment with a new feature, but you don't want to add it to the project yet. Maybe other people are working on the same feature so you need to collaborate. In this case, you can create a separate branch to version control your experimental feature. The main repo that you commit to is itself a branch called `master`; to make a new branch and use it, follow these steps:
+Sometimes you might want to experiment with a new feature, but not add it to the project yet. Maybe other people are working on the same feature so you need to collaborate. In this case, you can create a separate branch to version control your experimental feature. The main repo that you commit to is itself a branch called `master`; to make a new branch and use it, follow these steps:
 
 1. Create the branch and switch to it:
 ```
@@ -73,6 +71,22 @@ git checkout -b [branch-name]
 ```
 2. Develop, commit changes to your branch with `git commit`.
 3. Push your branch to Github with `git push`.
+
+### Stashing
+
+Sometimes you might want to experiment with a new feature, but not add it to the project yet. So you read the section above on branching, but it seems like too much work. Instead of branching, you can just use stashing to save your changes for later while you work on something else:
+
+1. Stash your changes:
+```
+git stash
+```
+2. Work on something else, commit changes, etc.
+3. Grab your changes from out of the stash:
+```
+git stash pop
+```
+
+No branching necessary! However, if you're stashed changes conflict with the other changes you made, you will have to go through the changes and merge them manually.
 
 ### GUI Tools
 
