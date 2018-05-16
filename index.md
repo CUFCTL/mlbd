@@ -8,7 +8,7 @@ Doing research in our lab requires a wide variety of skills. These days you can 
 
 1. [Palmetto Cluster](skills/palmetto-cluster.md)
 2. [Git](skills/git.md)
-3. [Python Tools](skills/python-tools.md)
+3. [Python](skills/python.md)
 4. [Jupyter Notebooks](skills/jupyter-notebooks.md)
 5. [Machine Learning](skills/machine-learning.md)
 6. [LaTeX](skills/latex.md)
