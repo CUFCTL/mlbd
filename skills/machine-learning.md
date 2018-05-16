@@ -21,8 +21,8 @@ To use machine learning effectively, you need a lot of different skills. You hav
 This page is only an introduction to what there is to learn about machine learning. If you really want to get involved with this field, you have a lot of studying to do. Below are some educational resources for machine learning, from easy to hard (approximately):
 
 - [Machine Learning on Coursera](https://www.coursera.org/learn/machine-learning)
-- [CS231n](http://cs231n.github.io/)
 - [Neural networks and deep learning](http://neuralnetworksanddeeplearning.com/)
+- [CS231n](http://cs231n.github.io/)
 - [Deep Learning Book](http://www.deeplearningbook.org/)
 - [Deep Learning](http://deeplearning.net/)
 
