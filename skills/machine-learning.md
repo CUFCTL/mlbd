@@ -16,8 +16,6 @@ Unsupervised learning
 
 To use machine learning effectively, you need a lot of different skills. You have to understand how machine learning algorithms work, but you also have to understand how to work with large amounts of data. If you don't want to reinvent the wheel, you'll want ot learn how to use machine learning software. And if you want to be able to process more than a few gigabytes of data in a reasonable amount of time, you'll want to learn how to use high-performance computing (HPC) systems.
 
-More information to come!
-
 ### Further Study
 
 This page is only an introduction to what there is to learn about machine learning. If you really want to get involved with this field, you have a lot of studying to do. Below are some educational resources for machine learning, from easy to hard (approximately):
