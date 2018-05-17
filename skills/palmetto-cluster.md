@@ -88,9 +88,9 @@ module add git
 
 You can use `scp` to transfer data from the command-line:
 ```
-scp [-r] <username>@login.palmetto.clemson.edu:<remote-path> <local-path>
+scp [-r] <username>@xfer01-ext.palmetto.clemson.edu:<remote-path> <local-path>
 
-scp [-r] <local-path> <username>@login.palmetto.clemson.edu:<remote-path>
+scp [-r] <local-path> <username>@xfer01-ext.palmetto.clemson.edu:<remote-path>
 ```
 
 To manage file transfers from a GUI, you can use [FileZilla](https://filezilla-project.org/), an FTP client which is relatively easy to use and cross-platform.
