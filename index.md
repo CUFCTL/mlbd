@@ -2,6 +2,12 @@
 
 Welcome to the FCTL creative inquiry site! This website is a repository of resources for undergraduates who want to get involved with research in our lab. In particular, our lab does research in __computer architecture__, __high-performance computing__, and __machine learning__.
 
+### Course Information
+
+Our creative inquiry meets twice a week (times to be announced). More information below:
+
+- [Schedule](schedule.md)
+
 ### Skills Overview
 
 Doing research in our lab requires a wide variety of skills. These days you can learn just about anything from the Internet, but here we provide a condensed set of pages that will introduce you to the skills you will need.
