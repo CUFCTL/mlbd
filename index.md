@@ -7,7 +7,7 @@ Welcome to the FCTL creative inquiry site! This website is a repository of resou
 Our creative inquiry meets twice a week (times to be announced). More information below:
 
 - [2018 Fall](course-info/2018-fall.md)
-- [2017 Spring](course-info/2017-spring.md)
+- [2018 Spring](course-info/2018-spring.md)
 - [2017 Fall](course-info/2017-fall.md)
 
 ### Skills Overview
