@@ -1,3 +1,5 @@
+# Spring 2018
+
 Below you will find information about the projects and software used during the Spring 2018 semester of the DLBD Creative Inquiry.
 
 | Week | Topic | Deliverable |
