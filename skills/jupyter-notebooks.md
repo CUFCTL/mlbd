@@ -20,7 +20,7 @@ By default you can create notebooks for Python and R, but you will probably want
 module add anaconda3/4.3.0
 
 # create an environment called "myenv"
-conda create -n myenv
+conda create -n myenv python=3.6
 
 # export the kernel for JupyterHub to use
 source activate myenv
