@@ -18,10 +18,11 @@ module add anaconda3/4.3.0
 You can manage packages in Anaconda with the `conda` command-line tool. On Palmetto, you must create a virtual environment before you can install additional packages:
 ```
 # create an environment called "myenv"
-conda create -n myenv
+conda create -n myenv python=3.6
 
 # install packages in the virtual environment
-conda install -n myenv tensorflow-gpu=1.3.0
+source activate myenv
+conda install keras
 ```
 
 If you use a virtual environment then you must use `source activate [env]` and `source deactivate` to enter and exit your environment. Here's an example of checking that your TensorFlow installation worked:
@@ -35,7 +36,7 @@ source activate myenv
 # start a Python shell and try to import tensorflow
 # if everything is working, it will import with no problems
 python
->>> import tensorflow as tf
+>>> import keras
 
 # to disable your environment when you're done
 source deactivate
