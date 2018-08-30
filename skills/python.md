@@ -33,7 +33,7 @@ qsub -I -l select=1:ncpus=2:mem=8gb:ngpus=2:gpu_model=k40,walltime=02:00:00
 # enable the environment that you created
 source activate myenv
 
-# start a Python shell and try to import tensorflow
+# start a Python shell and try to import keras
 # if everything is working, it will import with no problems
 python
 >>> import keras
@@ -46,6 +46,7 @@ source deactivate
 
 There are a variety of Python tools that are commonly used for working with data. All of these tools can be installed with Anaconda. Each tool has a website with tutorials and documentation, so we refer you to them:
 
+- [keras](https://keras.io/): deep learning but really simple
 - [matplotlib](https://matplotlib.org/): visualization
 - [numpy](http://www.numpy.org/): linear algebra
 - [pandas](http://pandas.pydata.org/): data management
