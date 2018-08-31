@@ -17,7 +17,7 @@ You can run Jupyter notebooks from Palmetto through [JupyterHub](https://www.pal
 
 By default you can create notebooks for Python and R, but you will probably want to be able to run notebooks using a custom Anaconda environment -- this is because you need a custom Anaconda environment in order to be able to install any custom Python packages like Tensorflow. To do this you'll need to set up some things on Palmetto:
 ```
-module add anaconda3/4.3.0
+module add anaconda3/5.1.0
 
 # create an environment called "myenv"
 conda create -n myenv python=3.6
@@ -27,7 +27,7 @@ source activate myenv
 python -m ipykernel install --user --name myenv --display-name "Python 3 (myenv)"
 ```
 
-After taking these steps, whenever you log in to a node on JupyterHub you should see an option under "New" called "Python 3 (myenv)". Creating a notebook with this kernel will allow you to use any Python packages installed in your Anaconda environment.
+After taking these steps, whenever you log in to a node on JupyterHub you should see an option under "New" called "Python 3 (myenv)". Creating a notebook with this kernel will allow you to use any Python packages installed in your Anaconda environment. Refer to [Python](python.md) for packages that you should install in your environment.
 
 ### JupyterLab
 
