@@ -24,10 +24,11 @@ conda create -n myenv python=3.6
 
 # export the kernel for JupyterHub to use
 source activate myenv
+conda install ipykernel
 python -m ipykernel install --user --name myenv --display-name "Python 3 (myenv)"
 ```
 
-After taking these steps, whenever you log in to a node on JupyterHub you should see an option under "New" called "Python 3 (myenv)". Creating a notebook with this kernel will allow you to use any Python packages installed in your Anaconda environment. Refer to [Python](python.md) for packages that you should install in your environment.
+After taking these steps, whenever you log in to a node on JupyterHub you should see an option under "New" called "Python 3 (myenv)". Creating a notebook with this kernel will allow you to use any Python packages installed in your Anaconda environment. Refer to [Python](python.md) for other packages that you should install in your environment.
 
 ### JupyterLab
 
