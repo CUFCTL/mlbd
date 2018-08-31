@@ -12,7 +12,7 @@ Because Python is so widely used, there are a _ton_ of resources out there for l
 
 The recommended way to use Python is through [Anaconda](https://www.anaconda.com/), which provides an easier way to manage Python packages, and installs a lot of useful packages immediately for you. Anaconda can be installed on most platforms. On Palmetto, Anaconda is available as a module:
 ```
-module add anaconda3/4.3.0
+module add anaconda3/5.1.0
 ```
 
 You can manage packages in Anaconda with the `conda` command-line tool. On Palmetto, you must create a virtual environment before you can install additional packages:
@@ -22,7 +22,8 @@ conda create -n myenv python=3.6
 
 # install packages in the virtual environment
 source activate myenv
-conda install keras
+conda install ipython
+conda install tensorflow-gpu==1.7.0
 ```
 
 If you use a virtual environment then you must use `source activate [env]` and `source deactivate` to enter and exit your environment. Here's an example of checking that your TensorFlow installation worked:
@@ -33,10 +34,10 @@ qsub -I -l select=1:ncpus=2:mem=8gb:ngpus=2:gpu_model=k40,walltime=02:00:00
 # enable the environment that you created
 source activate myenv
 
-# start a Python shell and try to import keras
+# start a Python shell and try to import tensorflow
 # if everything is working, it will import with no problems
-python
->>> import keras
+ipython
+>>> import tensorflow as tf
 
 # to disable your environment when you're done
 source deactivate
