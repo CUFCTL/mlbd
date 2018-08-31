@@ -36,4 +36,3 @@ Interested in joining a creative inquiry or our lab? Please contact one of the g
 - Ankit Kulshrestha (akulshr@clemson.edu)
 - Ben Shealy (btsheal@clemson.edu)
 - Colin Targonski (ctargon@clemson.edu)
-- Edwin Weill (eweill@clemson.edu)
