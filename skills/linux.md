@@ -24,9 +24,7 @@ _NOTE: If you only need Linux to access Palmetto through SSH, you may not need t
 
 #### Ubuntu Bash for Windows 10
 
-For anyone with Windows 10, this option is probably the best if you only need a basic command-line (for example, to access Palmetto). You just have to tweak some Windows settings and then you can install Ubuntu like any other app:
-
-https://docs.microsoft.com/en-us/windows/wsl/install-win10
+For anyone with Windows 10, this option is probably the best if you only need a basic command-line (for example, to access Palmetto). You just have to [tweak some Windows settings](https://docs.microsoft.com/en-us/windows/wsl/install-win10) and then you can install Ubuntu like any other app:
 
 #### Virtual machine
 
