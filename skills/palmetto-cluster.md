@@ -1,6 +1,6 @@
 ## Palmetto Cluster
 
-The Palmetto Cluster is Clemson's high-performance computing cluster. In our lab we use Palmetto extensively to run experiments that we can't run on our own machines. Full documentation on Palmetto can be found [here](https://www.palmetto.clemson.edu/palmetto/).
+The Palmetto Cluster is Clemson's high-performance computing cluster. In our lab we use Palmetto extensively to run experiments that we can't run on our own machines. Full documentation on Palmetto can be found [here](https://www.palmetto.clemson.edu/palmetto/). There is also a [Youtube tutorial](https://www.youtube.com/playlist?list=PLagFkXs2Bczaukd90bUWy0E2qub9alZn1) for Palmetto created by Clemson CITI.
 
 ### Getting Access to Palmetto
 
