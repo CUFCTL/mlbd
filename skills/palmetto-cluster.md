@@ -77,9 +77,7 @@ These commands are typically very fast because they only update a few environmen
 Below are a few module commands that are useful to have in your `.bashrc`. This script is in your home directory, and it is run when you login, so this kind of setup allows you to have a few basic modules installed by default.
 ```
 module purge
-module add anaconda3/4.3.0
-module add cmake
-module add cuda-toolkit/7.5.18
+module add anaconda3/5.1.0
 module add gcc/5.4.0
 module add git
 ```
