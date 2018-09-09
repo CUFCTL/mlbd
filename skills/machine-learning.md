@@ -11,8 +11,8 @@ Supervised learning
 - Classification
 
 Unsupervised learning
-- Dimensionality reduction
 - Clustering
+- Dimensionality reduction
 
 To use machine learning effectively, you need a lot of different skills. You have to understand how machine learning algorithms work, but you also have to understand how to work with large amounts of data. If you don't want to reinvent the wheel, you'll want ot learn how to use machine learning software. And if you want to be able to process more than a few gigabytes of data in a reasonable amount of time, you'll want to learn how to use high-performance computing (HPC) systems.
 
@@ -30,15 +30,3 @@ There are also a lot of cool interactive things out there for machine learning. 
 
 - [Deep Playground](http://playground.tensorflow.org/)
 - [Google AI Experiments](https://experiments.withgoogle.com/ai)
-
-### Concepts
-
-TODO: features, models, maybe some visualizations
-
-#### Deep Learning
-
-TODO: machine learning vs "deep" learning
-
-### Tools
-
-TODO: implementation with scikit-learn, Tensorflow
