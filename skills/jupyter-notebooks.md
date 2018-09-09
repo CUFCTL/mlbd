@@ -36,3 +36,7 @@ JupyterLab is a web-based IDE for Jupyter notebooks. On a local machine you can 
 ```
 jupyter-lab
 ```
+
+### Further Study
+
+- [Jupyter nbviewer](http://nbviewer.jupyter.org/)
