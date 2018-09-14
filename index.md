@@ -18,10 +18,9 @@ Doing research in our lab requires a wide variety of skills. These days you can 
 2. [Palmetto Cluster](skills/palmetto-cluster.md)
 3. [Git](skills/git.md)
 4. [Python](skills/python.md)
-5. [Jupyter Notebooks](skills/jupyter-notebooks.md)
-6. [Machine Learning](skills/machine-learning.md)
-7. [High-performance computing](skills/hpc.md)
-8. [LaTeX](skills/latex.md)
+5. [Machine Learning](skills/machine-learning.md)
+6. [High-performance computing](skills/hpc.md)
+7. [LaTeX](skills/latex.md)
 
 ### Projects
 
