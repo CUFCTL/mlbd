@@ -27,7 +27,7 @@ Doing research in our lab requires a wide variety of skills. These days you can 
 We have a number of ongoing research projects that undergraduates can get involved in. More information to come!
 
 - [Face recognition](face-recognition/)
-- Object detection
+- [Object detection](object-detection/)
 - Genomic data
 
 ### Contact
