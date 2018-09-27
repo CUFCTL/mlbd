@@ -22,6 +22,15 @@ Doing research in our lab requires a wide variety of skills. These days you can 
 6. [High-performance computing](skills/hpc.md)
 7. [LaTeX](skills/latex.md)
 
+### Jupyter Notebooks
+
+Our primary mode of teaching is through Jupyter notebooks. Here are all of the notebooks we have so far:
+
+- [Introduction](assets/notebooks/introduction.ipynb)
+- [Working with Data](assets/notebooks/data-visualization.ipynb)
+- [Supervised Learning](assets/notebooks/supervised-learning.ipynb)
+- [Unsupervised Learning](assets/notebooks/unsupervised-learning.ipynb)
+
 ### Projects
 
 We have a number of ongoing research projects that undergraduates can get involved in. More information to come!
