@@ -19,8 +19,9 @@ Doing research in our lab requires a wide variety of skills. These days you can 
 3. [Git](skills/git.md)
 4. [Python](skills/python.md)
 5. [Machine Learning](skills/machine-learning.md)
-6. [High-performance computing](skills/hpc.md)
-7. [LaTeX](skills/latex.md)
+6. [Datasets](skills/datasets.md)
+7. [High-performance computing](skills/hpc.md)
+8. [LaTeX](skills/latex.md)
 
 ### Jupyter Notebooks
 
@@ -30,6 +31,7 @@ Our primary mode of teaching is through Jupyter notebooks. Here are all of the n
 - [Working with Data](assets/notebooks/data-visualization.ipynb)
 - [Supervised Learning](assets/notebooks/supervised-learning.ipynb)
 - [Unsupervised Learning](assets/notebooks/unsupervised-learning.ipynb)
+- [Neural Networks: Linear Layers](assets/notebooks/neural-networks-linear.ipynb)
 
 ### Projects
 
