@@ -23,7 +23,7 @@ conda create -n myenv python=3.6
 # install packages in the virtual environment
 source activate myenv
 conda install ipython ipywidgets
-conda install matplotlib numpy pandas scikit-learn seaborn
+conda install matplotlib numpy pandas scikit-image scikit-learn seaborn
 conda install tensorflow-gpu==1.7.0
 ```
 
