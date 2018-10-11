@@ -32,6 +32,7 @@ Our primary mode of teaching is through Jupyter notebooks. Here are all of the n
 - [Supervised Learning](assets/notebooks/supervised-learning.ipynb)
 - [Unsupervised Learning](assets/notebooks/unsupervised-learning.ipynb)
 - [Neural Networks: Linear Layers](assets/notebooks/neural-networks-linear.ipynb)
+- [Neural Networks: Convolutional Layers](assets/notebooks/neural-networks-conv.ipynb)
 
 ### Projects
 
