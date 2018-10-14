@@ -25,6 +25,8 @@ This page is only an introduction to what there is to learn about machine learni
 - [CS231n](http://cs231n.github.io/)
 - [Deep Learning Book](http://www.deeplearningbook.org/)
 - [Deep Learning](http://deeplearning.net/)
+- [Brandon Rohrer's Blog](https://brohrer.github.io/blog.html)
+- [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
 
 There are also a lot of cool interactive things out there for machine learning. Check them out!
 
