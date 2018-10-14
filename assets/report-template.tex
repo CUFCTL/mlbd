@@ -1,0 +1,132 @@
+\documentclass[paper=a4, fontsize=11pt,twoside]{scrartcl} 
+
+\usepackage[a4paper,pdftex]{geometry}
+\setlength{\oddsidemargin}{5mm}
+\setlength{\evensidemargin}{5mm}
+
+\usepackage[english]{babel}
+\usepackage[protrusion=true,expansion=true]{microtype}	
+\usepackage{amsmath,amsfonts,amsthm,amssymb}
+\usepackage{graphicx}
+
+% --------------------------------------------------------------------
+% Definitions (do not change)
+% --------------------------------------------------------------------
+\newcommand{\HRule}[1]{\rule{\linewidth}{#1}}
+
+\makeatletter
+\def\printtitle{
+	{\centering \@title\par}}
+\makeatother
+
+\makeatletter
+\def\printauthor{
+	{\centering \large \@author}}
+\makeatother
+
+% --------------------------------------------------------------------
+% Metadata
+% --------------------------------------------------------------------
+\title{
+    \normalsize \textsc{Future Computing Technologies Lab: Creative Inquiry} \\ [2.0cm]
+	\HRule{0.5pt} \\
+	\LARGE \textbf{\uppercase{Semester Report}}
+	\HRule{2pt} \\ [0.5cm]
+	\normalsize \today
+}
+
+\author{
+	Your Name\\	
+	Clemson University\\	
+	Department of Electrical and Computer Engineering\\
+	\texttt{your@email.com} \\
+}
+
+
+% --------------------------------------------------------------------
+% Main Document
+% --------------------------------------------------------------------
+\begin{document}
+
+\thispagestyle{empty}
+
+\printtitle
+\vfill
+\printauthor
+\newpage
+
+\setcounter{page}{1}
+
+\section{Introduction}
+
+In this section you will describe your experience in the CI.  Good topics to discuss include your exposure to topics otherwise inaccessible to undergraduate students, or any relevant topics or interest that you feel you would like to research or pursue in the future because of your participation in the CI. If this CI has had any impact on your understanding or interest in pursuing a graduate degree, feel free to mention this as well.
+
+\section{Technical Knowledge Gained}
+
+In this section you can elaborate on any kind of knowledge gained during the course of this semester.  This could be anything from creation of a large dataset to understanding deep learning techniques to training networks to perform specific tasks.  Be as elaborate as you feel necessary, but make sure to convey all the knowledge that you have gained throughout the semester while participating in this CI.
+
+\section{Results}
+
+In this section you will put any relevant results that you have achieved during the semester.  You should focus on results that show the dataset you used as well as the training that you were able to accomplish.  Make sure to fully explain all the images or tables provided.  For example, if you have an image with 3 labels and your network only detects 2 of them, try and make some justification of why you think the last label was not detected.  If you are able to get performance metrics (accuracy, F1 score, etc.) for your network as well, make sure to put those in this section in either a table format or some way that it is easily distinguishable.
+
+\section{Conclusions and Future Work}
+
+In this section you can make conclusions about the results that you achieved during the course of the semester.  If you have any ideas for continued work in the CI, you can put those in this section as well.  For example, if there is a particular project which you think will fit well in the CI and you want to work on it, this would be a good place to explain it briefly.
+
+\section*{TeX Helpful Hints}\label{design}
+
+Below you will find a few helpful hints for creating different objects (i.e. tables, mathematics, etc.) in a TeX document.  This will be removed from your document before turning in.
+
+\subsection*{Text}
+
+Use \texttt{section}s and \texttt{subsection}s to organize your document. \LaTeX{} handles all the formatting and numbering automatically. Use \texttt{ref} and \texttt{label} for cross-references --- for example, this is Section \ref{design}. You can also create math expressions in sentences such as $\frac{\pi}{2}$.
+
+\subsection*{Tables and Figures}
+
+You can create a table as shown in Table \ref{tab:table1}.
+
+\begin{table}
+	\centering
+	\caption{Caption for the table.}
+	\label{tab:table1}
+	\begin{tabular}{l|c||r}
+		\hline
+		1 & 2 & 3\\
+		\hline
+		a & b & c\\
+		\hline
+	\end{tabular}
+\end{table}
+
+You can upload your figures (JPEG, PNG, or PDF) and include them in the document as shown in Figure \ref{fig:your-figure}.
+
+\begin{figure}[h!]
+\includegraphics[width=\textwidth]{image.jpg}
+\caption{\label{fig:your-figure}Example Image}
+\end{figure}
+
+\subsection*{Mathematics}
+
+\LaTeX{} is great for typesetting mathematics. Let $X_1, X_2, \ldots, X_n$ be a sequence of independent and identically distributed random variables with $\text{E}[X_i] = \mu$ and $\text{Var}[X_i] = \sigma^2 < \infty$, and let
+
+$$S_n = \frac{X_1 + X_2 + \cdots + X_n}{n} = \frac{1}{n}\sum_{i}^{n} X_i$$
+
+denote their mean. Then as $n$ approaches infinity, the random variables $\sqrt{n}(S_n - \mu)$ converge in distribution to a normal $\mathcal{N}(0, \sigma^2)$.
+
+\subsection*{Lists}
+
+You can make lists with automatic numbering \dots
+
+\begin{enumerate}
+	\item Like this,
+	\item and like this.
+\end{enumerate}
+
+\dots or bullet points \dots
+
+\begin{itemize}
+	\item Like this,
+	\item and like this.
+\end{itemize}
+
+\end{document}
