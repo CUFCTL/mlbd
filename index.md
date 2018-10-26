@@ -22,6 +22,7 @@ Doing research in our lab requires a wide variety of skills. These days you can 
 6. [Datasets](skills/datasets.md)
 7. [High-performance computing](skills/hpc.md)
 8. [LaTeX](skills/latex.md)
+9. [Research](skills/research.md)
 
 ### Jupyter Notebooks
 
