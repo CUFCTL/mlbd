@@ -11,3 +11,8 @@ Research is essentially the application of the scientific method, and the key to
 - __Experimentation__
 
 - __Publication__
+
+### Further Study
+
+- [Advice for Graduate Students](https://www.ece.ucsb.edu/~yuanxie/Advice.html)
+- [PhD Comics](http://phdcomics.com/)
