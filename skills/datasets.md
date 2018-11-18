@@ -26,3 +26,7 @@ Object detection datasets:
 - [German Traffic Sign Classification](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset)
 - [KITTI Dataset](http://www.cvlibs.net/datasets/kitti)
 - [Street View House Numbers (SVHN)](http://ufldl.stanford.edu/housenumbers)
+
+### Downloading Datasets from Kaggle
+
+You can download datasets from Kaggle through the command line using the [Kaggle API](https://github.com/Kaggle/kaggle-api). You can install the tool through `pip` in your Anaconda environment. You'll also have to create an account on Kaggle and generate API credentials (follow the instructions in the README). When you visit a dataset the Kaggle website, it will provide a command that you can copy and paste to download that dataset via command line.
