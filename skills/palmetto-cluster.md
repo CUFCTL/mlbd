@@ -91,4 +91,4 @@ scp [-r] <username>@xfer01-ext.palmetto.clemson.edu:<remote-path> <local-path>
 scp [-r] <local-path> <username>@xfer01-ext.palmetto.clemson.edu:<remote-path>
 ```
 
-To manage file transfers from a GUI, you can use [FileZilla](https://filezilla-project.org/), an FTP client which is relatively easy to use and cross-platform.
+To manage file transfers from a GUI, you can use [FileZilla](https://filezilla-project.org/), an FTP client which is relatively easy to use and cross-platform. If you're on JupyterHub, you can upload files via the "Upload" button.
