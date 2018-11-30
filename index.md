@@ -35,6 +35,8 @@ Our primary mode of teaching is through Jupyter notebooks. Here are all of the n
 - [Neural Networks: Linear Layers](assets/notebooks/neural-networks-linear.ipynb)
 - [Neural Networks: Convolutional Layers](assets/notebooks/neural-networks-conv.ipynb)
 
+__NEW__: You can run these notebooks very easily now using [Google Colaboratory](https://colab.research.google.com/)! Simply select the "Github" tab, search for the __cufctl/creative-inquiry__ repository, and then you'll be able to select from a list of our notebooks. Once you open a notebook you can save a copy of it to Google Drive. It just works!
+
 ### Projects
 
 We have a number of ongoing research projects that undergraduates can get involved in. More information to come!
