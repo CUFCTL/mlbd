@@ -1,4 +1,4 @@
-## High-performance Computing
+## High-Performance Computing
 
 TODO
 
@@ -8,10 +8,15 @@ TODO
 
 - [CUDA Toolkit Documentation](http://docs.nvidia.com/cuda/)
 - [An Even Easier Introduction to CUDA](https://devblogs.nvidia.com/even-easier-introduction-cuda/)
+- [Numba: High-Performance Python with CUDA Acceleration](https://devblogs.nvidia.com/numba-python-cuda-acceleration/)
+- [RAPIDS Accelerates Data Science End-to-End](https://devblogs.nvidia.com/gpu-accelerated-analytics-rapids/)
 
 ### MPI
 
 TODO
+
+- [OpenMPI 3.0 Documentation](https://www.open-mpi.org//doc/v3.0/)
+- [mpi4py](https://mpi4py.readthedocs.io/en/stable/)
 
 ### OpenCL
 
