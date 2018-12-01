@@ -83,10 +83,12 @@ There are a variety of Python tools that are commonly used for working with data
 
 - [keras](https://keras.io/): deep learning but really simple
 - [matplotlib](https://matplotlib.org/): visualization
+- [numba](https://numba.pydata.org/): high-performance computing
 - [numpy](http://www.numpy.org/): linear algebra
 - [pandas](http://pandas.pydata.org/): data management
 - [scikit-image](http://scikit-image.org/): image processing
 - [scikit-learn](http://scikit-learn.org/): machine learning
+- [scipy](https://scipy.org/): scientific computing
 - [seaborn](http://seaborn.pydata.org/): (better) visualization
 - [TensorFlow](https://www.tensorflow.org/): high-performance machine learning
 
