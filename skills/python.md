@@ -17,6 +17,9 @@ module add anaconda3/5.1.0
 
 You can manage packages in Anaconda with the `conda` command-line tool. On Palmetto, you must create a virtual environment before you can install additional packages:
 ```
+# (Palmetto) login to a compute node
+qsub -I -l select=1:ncpus=2:mem=8gb:ngpus=2,walltime=02:00:00
+
 # create an environment called "myenv"
 conda create -n myenv python=3.6
 
