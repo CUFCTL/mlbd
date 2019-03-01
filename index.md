@@ -40,12 +40,12 @@ Doing research in our lab requires a wide variety of skills. These days you can 
 
 Our primary mode of teaching is through Jupyter notebooks. Here are all of the notebooks we have so far:
 
-- [Introduction](assets/notebooks/introduction.ipynb)
-- [Working with Data](assets/notebooks/data-visualization.ipynb)
-- [Supervised Learning](assets/notebooks/supervised-learning.ipynb)
-- [Unsupervised Learning](assets/notebooks/unsupervised-learning.ipynb)
-- [Neural Networks: Linear Layers](assets/notebooks/neural-networks-linear.ipynb)
-- [Neural Networks: Convolutional Layers](assets/notebooks/neural-networks-conv.ipynb)
+- [Introduction](notebooks/introduction.ipynb)
+- [Working with Data](notebooks/data-visualization.ipynb)
+- [Supervised Learning](notebooks/supervised-learning.ipynb)
+- [Unsupervised Learning](notebooks/unsupervised-learning.ipynb)
+- [Neural Networks: Linear Layers](notebooks/neural-networks-linear.ipynb)
+- [Neural Networks: Convolutional Layers](notebooks/neural-networks-conv.ipynb)
 
 __NEW__: You can run these notebooks very easily now using [Google Colaboratory](https://colab.research.google.com/)! Simply select the "Github" tab, search for the __cufctl/creative-inquiry__ repository, and then you'll be able to select from a list of our notebooks. Once you open a notebook you can save a copy of it to Google Drive. You may also need to go to "Edit" > "Notebook settings" to change the runtime to Python 3 and to use a GPU if you need it. Otherwise, it just works!
 
