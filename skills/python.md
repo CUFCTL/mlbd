@@ -21,13 +21,7 @@ You can manage packages in Anaconda with the `conda` command-line tool. On Palme
 qsub -I -l select=1:ncpus=2:mem=8gb:ngpus=2,walltime=02:00:00
 
 # create an environment called "myenv"
-conda create -n myenv python=3.6
-
-# install packages in the virtual environment
-source activate myenv
-conda install ipython ipywidgets
-conda install matplotlib numpy pandas scikit-image scikit-learn seaborn
-conda install tensorflow-gpu==1.7.0
+conda create -n myenv python=3.6 tensorflow-gpu=1.12.0 ipython ipywidgets matplotlib numpy pandas scikit-image scikit-learn seaborn
 ```
 
 If you use a virtual environment then you must use `source activate [env]` and `source deactivate` to enter and exit your environment. Here's an example of checking that your TensorFlow installation worked:
