@@ -11,11 +11,12 @@ We welcome all students who are interested in any of the topics listed above! He
 - If you're a new student, you may only take the CI for __one credit hour__. After the first semester you may take the CI for two or three credit hours per semester. If you would like to appeal for more credit hours in your first semester, please contact one of the graduate students.
 - Although not absolutely required, it is recommended that you have some experience with Linux and Python before joining the CI. Please consult the skills pages below for an introduction to these topics.
 
-Our creative inquiry meets twice a week (meeting times vary by semester). More information below:
+Our creative inquiry meets twice a week (meeting times vary by semester). Refer to the [Course Schedule](course-info/2018-fall.md) for relevant course information.
 
-- [2018 Fall](course-info/2018-fall.md)
+<!--
 - [2018 Spring](course-info/2018-spring.md)
 - [2017 Fall](course-info/2017-fall.md)
+-->
 
 For more information, please contact one of the graduate students:
 
