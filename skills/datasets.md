@@ -4,6 +4,7 @@ Before you can do any sort of machine learning task, you need data. Fortunately 
 
 Here are some websites which have large repositories of datasets:
 
+- [Dataset List](https://www.datasetlist.com/)
 - [Deep Learning datasets](http://deeplearning.net/datasets/)
 - [Google Dataset Search](https://toolbox.google.com/datasetsearch)
 - [Kaggle datasets](https://www.kaggle.com/datasets)
