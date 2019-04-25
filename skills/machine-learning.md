@@ -23,6 +23,7 @@ This page is only an introduction to what there is to learn about machine learni
 - [Machine Learning on Coursera](https://www.coursera.org/learn/machine-learning)
 - [Neural networks and deep learning](http://neuralnetworksanddeeplearning.com/)
 - [CS231n](http://cs231n.github.io/)
+- [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
 - [Deep Learning Book](http://www.deeplearningbook.org/)
 - [Deep Learning](http://deeplearning.net/)
 - [Brandon Rohrer's Blog](https://brohrer.github.io/blog.html)
