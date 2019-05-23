@@ -11,7 +11,7 @@ We welcome all students who are interested in any of the topics listed above! He
 - If you're a new student, you may only take the CI for __one credit hour__. After the first semester you may take the CI for two or three credit hours per semester. If you would like to appeal for more credit hours in your first semester, please contact one of the graduate students.
 - Although not absolutely required, it is recommended that you have some experience with Linux and Python before joining the CI. Please consult the skills pages below for an introduction to these topics.
 
-Our creative inquiry meets twice a week (meeting times vary by semester). Refer to the [Course Schedule](course-info/2018-fall.md) for relevant course information.
+Our creative inquiry meets twice a week (meeting times vary by semester). Refer to the [Course Schedule](course-info/) for relevant course information.
 
 <!--
 - [2018 Spring](course-info/2018-spring.md)
@@ -20,8 +20,8 @@ Our creative inquiry meets twice a week (meeting times vary by semester). Refer 
 
 For more information, please contact one of the graduate students:
 
-- Ankit Kulshrestha (akulshr@clemson.edu)
 - Ben Shealy (btsheal@clemson.edu)
+- Ankit Kulshrestha (akulshr@clemson.edu)
 
 ### Skills Overview
 
