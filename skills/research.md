@@ -24,6 +24,12 @@ A literature review may seem rather daunting, especially when you're eager to ge
 
 - __Implementation__
 
+In many fields, but especially in computer science, your research will likely involve some kind of software and/or hardware implementation. The important tips here are __move fast__ and __if you use it, save it__.
+
+When you come up with a research question, it's very important that you be able to answer it -- that is, perform experiments in an attempt to answer it -- quickly. If you get caught up trying to get code to work or be perfect, you may lose track of the vision that you had at first. Now of course you shouldn't perform experiments with code that is incorrect, and sometimes you may just have to write a difficult piece of code because it hasn't been done before. But if it looks like you will need to spend a lot of time to just to write the code you need, make sure that this development time is warranted for the research problem you are trying to tackle. In many many cases, you can find tools and libraries that already have what you need.
+
+As you write more and more code and collect more and more data, it becomes easier to misplace code that you later have to find again or just rewrite. Try to keep your code organized, and even better, __use version control__. Trust me, you'll be glad you did. The guiding principle is, if you lost all of your results today, could you reproduce everything? Whatever code you would need to reproduce your results, keep that code! And make sure it still works!
+
 - __Experimentation__
 
 - __Publication__
@@ -32,7 +38,11 @@ A literature review may seem rather daunting, especially when you're eager to ge
 
 TODO
 
-### Further Study
+### Reading Digests
+
+- [Deep Learning Weekly](https://www.deeplearningweekly.com/)
+
+### Other Helpful Things
 
 - [Advice for Graduate Students](https://www.ece.ucsb.edu/~yuanxie/Advice.html)
 - [PhD Comics](http://phdcomics.com/)
