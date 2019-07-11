@@ -46,6 +46,10 @@ So remember that all of the previous steps really do come first, and then the pa
 
 Of course, what I just described is the ideal, and it's easier said than done. The reality is that research is messy by it's very nature. Whatever research question you _think_ you're trying to answer when you start... it will probably change by the end. You may perform an experiment which yields results that cause you to shift into an entirely new direction, and it will feel like a never-ending cycle at times. This is why it's so important to write things down as you go, even if your plans change, because recording your thoughts helps you stay on track amidst the chaos. And when you see a good point at which to press pause and report your findings to the world -- that's when you write the paper.
 
+- __Final thoughts__
+
+Lastly, some general advice. __Find a good mentor, find good peers.__ One of the greatest factors in choosing a lab is the people you work with. Your research advisor, and your more experienced peers, should be people who will mentor you and set an example for you to follow. And your peers in general should be people with whom you can bounce around ideas and who will challenge your work. Much of the advice on this page is thanks to my own mentorship by [Dr. Melissa Smith](https://www.clemson.edu/cecas/departments/ece/faculty_staff/faculty/msmith.html), [Dr. Alex Feltus](https://www.clemson.edu/science/departments/genetics-biochemistry/people/profiles/ffeltus). and other fellow graduate students. Research is often something that takes place so strongly inside your mind, so don't go it alone when you don't have to. Your hypotheses will be more focused, your experiments will be more rigorous, and your research experience on the whole will be so much more fun.
+
 ### Conferences and Journals
 
 TODO
