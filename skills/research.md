@@ -32,6 +32,12 @@ As you write more and more code and collect more and more data, it becomes easie
 
 - __Experimentation__
 
+Again, your experiments should simply follow the scientific method: ask a question, design a test that can answer your question one way or the other, and then do the test! It's not complicated, but if you don't stop to frame your experiments this way, then _you will make it unnecessarily complicated_. Your "experiment" may actually be a series of several experiments -- all the more important that you state the exact questions that you are trying to answer.
+
+Another important point with experimentation is to always question your assumptions. That is, if you find yourself assuming that something is true but you're not really certain, just do the experiment! At worst you'll confirm what you already thought, and at best you'll be thrust into some exciting new direction by having your prior assumptions refuted. That being said, you don't have to perform an experiment every time one comes to mind! Just don't let your assumptions keep you from doing one. In the words of Isaac Asimov:
+
+> The most exciting phrase to hear in science, the one that heralds new discoveries, isn't 'Eureka!' but rather 'hmm....that's funny.'
+
 - __Publication__
 
 ### Conferences and Journals
@@ -46,3 +52,4 @@ TODO
 
 - [Advice for Graduate Students](https://www.ece.ucsb.edu/~yuanxie/Advice.html)
 - [PhD Comics](http://phdcomics.com/)
+- [Research 101 for Engineers](http://www.me.umn.edu/intranet/pdf/RESEARCH%20101%20FOR%20ENGINEERS.PDF)
