@@ -57,9 +57,32 @@ Bioinformatics
 - [BMC Bioinformatics](https://bmcbioinformatics.biomedcentral.com/)
 - [BMC Systems Biology](https://bmcsystbiol.biomedcentral.com/)
 - [GigaScience](https://academic.oup.com/gigascience)
+- [IEEE Journal of Biomedical and Health Informatics](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221020)
+- [IEEE/ACM Transactions on Computational Biology and Bioinformatics](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8857)
+- [Oxford Bioinformatics](https://academic.oup.com/bioinformatics/)
 - [PLOS Computational Biology](https://journals.plos.org/ploscompbiol/)
 - [PLOS ONE](https://journals.plos.org/plosone/)
 - [Scientific Reports](https://www.nature.com/srep/)
+
+High-Performance Computing
+
+- [Elsevier / Journal of Parallel and Distributed Computing](https://www.journals.elsevier.com/journal-of-parallel-and-distributed-computing/)
+- [IEEE Transactions on Big Data](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317)
+- [IEEE Transactions on Computers](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2)
+- [IEEE Transactions on Parallel and Distributed Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=71)
+- [Springer / Journal of Supercomputing](https://link.springer.com/journal/11227)
+
+Machine Learning
+
+- [IEEE Transactions on Neural Networks and Learning Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385)
+- [IEEE Transactions on Pattern Analysis and Machine Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34)
+
+General
+
+- [Communications of the ACM](https://cacm.acm.org/)
+- [Nature](https://www.nature.com/)
+- [Proceedings of the IEEE](https://proceedingsoftheieee.ieee.org/)
+- [Science](https://www.sciencemag.org/)
 
 ### Conferences
 
