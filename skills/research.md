@@ -50,9 +50,36 @@ Of course, what I just described is the ideal, and it's easier said than done. T
 
 Lastly, some general advice. __Find a good mentor, and find good peers.__ One of the greatest factors in choosing a lab is the people you work with. Your research advisor, and your more experienced peers, should be people who will mentor you and set an example for you to follow. And your peers in general should be people with whom you can bounce around ideas and who will challenge your work. Much of the advice on this page is thanks to my own mentorship by [Dr. Melissa Smith](https://www.clemson.edu/cecas/departments/ece/faculty_staff/faculty/msmith.html), [Dr. Alex Feltus](https://www.clemson.edu/science/departments/genetics-biochemistry/people/profiles/ffeltus). and other fellow graduate students. Research is so often something that lives inside your mind, so don't go it alone when you don't have to. Your hypotheses will be more focused, your experiments will be more rigorous, and your research experience on the whole will be so much more fun.
 
-### Conferences and Journals
+### Journals
 
-TODO
+Bioinformatics
+
+- [BMC Bioinformatics](https://bmcbioinformatics.biomedcentral.com/)
+- [BMC Systems Biology](https://bmcsystbiol.biomedcentral.com/)
+- [GigaScience](https://academic.oup.com/gigascience)
+- [PLOS Computational Biology](https://journals.plos.org/ploscompbiol/)
+- [PLOS ONE](https://journals.plos.org/plosone/)
+- [Scientific Reports](https://www.nature.com/srep/)
+
+### Conferences
+
+Computer Vision
+
+- [CVPR](https://www.thecvf.com/)
+- [ICCV](https://www.thecvf.com/)
+
+High-Performance Computing
+
+- [ICCF](http://www.computingfrontiers.org/)
+- [IPDPS](http://www.ipdps.org/ipdps2019/)
+- [SC](http://supercomputing.org/)
+
+Machine Learning
+
+- [AAAI](https://www.aaai.org/)
+- [ICLR](https://iclr.cc/)
+- [ICML](https://icml.cc/)
+- [NeurIPS](https://nips.cc/)
 
 ### Reading Digests
 
