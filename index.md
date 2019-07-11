@@ -27,15 +27,15 @@ For more information, please contact one of the graduate students:
 
 Doing research in our lab requires a wide variety of skills. These days you can learn just about anything from the Internet, but here we provide a condensed set of pages that will introduce you to the skills you will need.
 
-1. [Linux](skills/linux.md)
-2. [Palmetto Cluster](skills/palmetto-cluster.md)
-3. [Git](skills/git.md)
-4. [Python](skills/python.md)
-5. [Machine Learning](skills/machine-learning.md)
-6. [Datasets](skills/datasets.md)
-7. [High-performance computing](skills/hpc.md)
-8. [LaTeX](skills/latex.md)
-9. [Research](skills/research.md)
+- [Datasets](skills/datasets.md)
+- [Git](skills/git.md)
+- [High-performance computing](skills/hpc.md)
+- [LaTeX](skills/latex.md)
+- [Linux](skills/linux.md)
+- [Machine Learning](skills/machine-learning.md)
+- [Palmetto Cluster](skills/palmetto-cluster.md)
+- [Python](skills/python.md)
+- [Research](skills/research.md)
 
 ### Jupyter Notebooks
 
@@ -48,7 +48,7 @@ Our primary mode of teaching is through Jupyter notebooks. Here are all of the n
 - [Neural Networks: Linear Layers](notebooks/neural-networks-linear.ipynb)
 - [Neural Networks: Convolutional Layers](notebooks/neural-networks-conv.ipynb)
 
-__NEW__: You can run these notebooks very easily now using [Google Colaboratory](https://colab.research.google.com/)! Simply select the "Github" tab, search for the __cufctl/creative-inquiry__ repository, and then you'll be able to select from a list of our notebooks. Once you open a notebook you can save a copy of it to Google Drive. You may also need to go to "Edit" > "Notebook settings" to change the runtime to Python 3 and to use a GPU if you need it. Otherwise, it just works!
+You can run these notebooks very easily using [Google Colaboratory](https://colab.research.google.com/)! Simply select the "Github" tab, search for the __cufctl/creative-inquiry__ repository, and then you'll be able to select from a list of our notebooks. Once you open a notebook you can save a copy of it to Google Drive. You may also need to go to "Edit" > "Notebook settings" to change the runtime to Python 3 and to use a GPU if you need it. Otherwise, it just works!
 
 <!--
 ### Projects
