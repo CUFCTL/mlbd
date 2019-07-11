@@ -52,6 +52,13 @@ Lastly, some general advice. __Find a good mentor, and find good peers.__ One of
 
 ### Journals
 
+General
+
+- [Communications of the ACM](https://cacm.acm.org/)
+- [Nature](https://www.nature.com/)
+- [Proceedings of the IEEE](https://proceedingsoftheieee.ieee.org/)
+- [Science](https://www.sciencemag.org/)
+
 Bioinformatics
 
 - [BMC Bioinformatics](https://bmcbioinformatics.biomedcentral.com/)
@@ -77,13 +84,6 @@ Machine Learning
 - [IEEE Transactions on Neural Networks and Learning Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385)
 - [IEEE Transactions on Pattern Analysis and Machine Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34)
 
-General
-
-- [Communications of the ACM](https://cacm.acm.org/)
-- [Nature](https://www.nature.com/)
-- [Proceedings of the IEEE](https://proceedingsoftheieee.ieee.org/)
-- [Science](https://www.sciencemag.org/)
-
 ### Conferences
 
 Computer Vision
@@ -107,6 +107,7 @@ Machine Learning
 ### Reading Digests
 
 - [Deep Learning Weekly](https://www.deeplearningweekly.com/)
+- [Nature Briefing](https://www.nature.com/briefing/signup/)
 
 ### Other Helpful Things
 
