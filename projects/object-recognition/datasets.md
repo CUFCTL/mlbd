@@ -6,7 +6,7 @@ Face databases are widely available on the Internet. Below are some sites to exp
 
 Feel free to experiment with datasets. Our testing script has only been used with the ORL database, so it might not work with others, but it should be little trouble to adjust the script and/or the dataset to work with each other.
 
-The face recognition system supports [PGM and PPM images](https://en.wikipedia.org/wiki/Netpbm_format), so if you are testing a new dataset which stores images in a different format, you will need to convert them first. We have a script to batch convert directories of images with ImageMagick:
+The object recognition system supports [PGM and PPM images](https://en.wikipedia.org/wiki/Netpbm_format), so if you are testing a new dataset which stores images in a different format, you will need to convert them first. We have a script to batch convert directories of images with ImageMagick:
 ```
 ./scripts/convert-images.sh [src-folder] [dst-folder] jpeg ppm
 ```

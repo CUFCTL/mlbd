@@ -53,7 +53,7 @@ You can run these notebooks very easily using [Google Colaboratory](https://cola
 <!--
 ### Projects
 We have a number of ongoing research projects that undergraduates can get involved in. More information to come!
-- [Face recognition](projects/face-recognition/)
+- [Face recognition](projects/object-recognition/)
 - [Object detection](projects/object-detection/)
 - Genomic data
 -->

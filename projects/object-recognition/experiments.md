@@ -4,7 +4,7 @@ This page describes all kinds of experiments that you can run with the recogniti
 
 ### Algorithms
 
-The face recognition system uses a variety of machine learning algorithms to perform feature extraction and classification, so we can compare these algorithms across several metrics, including training time, prediction time, and the error rate. Below is an example table for comparing each algorithm. Note that in this example the dataset and hyperparameters are fixed, so they should be specified along with the results.
+The object recognition system uses a variety of machine learning algorithms to perform feature extraction and classification, so we can compare these algorithms across several metrics, including training time, prediction time, and the error rate. Below is an example table for comparing each algorithm. Note that in this example the dataset and hyperparameters are fixed, so they should be specified along with the results.
 
 |           | Train (s) | Pred (s) | Error rate |
 |-----------|-----------|----------|------------|
@@ -30,7 +30,7 @@ The system can be run on a CPU or a GPU, so we can compare the performance of th
 
 ### Datasets
 
-One way to demonstrate the robustness of a face recognition system is to show that it performs well with several (good) datasets. Below is an example table for comparing the performance and accuracy of several datasets. Note that with this example, the algorithm and hyperparameters are fixed, so they should be specified along with the results.
+One way to demonstrate the robustness of a object recognition system is to show that it performs well with several (good) datasets. Below is an example table for comparing the performance and accuracy of several datasets. Note that with this example, the algorithm and hyperparameters are fixed, so they should be specified along with the results.
 
 |       | Train (s) | Pred (s) | Error rate |
 |-------|-----------|----------|------------|
