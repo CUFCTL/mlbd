@@ -42,7 +42,7 @@ Doing research in our lab requires a wide variety of skills. These days you can 
 Our primary mode of teaching is through Jupyter notebooks. Here are all of the notebooks we have so far:
 
 - [Introduction](notebooks/introduction.ipynb)
-- [Working with Data](notebooks/data-visualization.ipynb)
+- [Working with Data](notebooks/data-science.ipynb)
 - [Supervised Learning](notebooks/supervised-learning.ipynb)
 - [Unsupervised Learning](notebooks/unsupervised-learning.ipynb)
 - [Neural Networks: Linear Layers](notebooks/neural-networks-linear.ipynb)

@@ -53,7 +53,7 @@ The first and most important step when designing a machine learning system: __un
 
 To download the Jupyter notebook to Palmetto:
 ```bash
-wget https://cufctl.github.io/creative-inquiry/notebooks/data-visualization.ipynb
+wget https://cufctl.github.io/creative-inquiry/notebooks/data-science.ipynb
 ```
 
 <a name="supervised-learning"/>
