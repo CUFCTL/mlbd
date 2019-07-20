@@ -73,6 +73,7 @@ Bioinformatics
 
 High-Performance Computing
 
+- [ACM Transactions on Parallel Computing](https://dlnext.acm.org/journal/topc)
 - [Elsevier / Journal of Parallel and Distributed Computing](https://www.journals.elsevier.com/journal-of-parallel-and-distributed-computing/)
 - [IEEE Transactions on Big Data](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317)
 - [IEEE Transactions on Computers](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=12)
