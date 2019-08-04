@@ -50,9 +50,13 @@ Our primary mode of teaching is through Jupyter notebooks. Here are all of the n
 
 You can run these notebooks very easily using [Google Colaboratory](https://colab.research.google.com/)! Simply select the "Github" tab, search for the __cufctl/creative-inquiry__ repository, and then you'll be able to select from a list of our notebooks. Once you open a notebook you can save a copy of it to Google Drive. You may also need to go to "Edit" > "Notebook settings" to change the runtime to Python 3 and to use a GPU if you need it. Otherwise, it just works!
 
-<!--
 ### Projects
-We have a number of ongoing research projects that undergraduates can get involved in. More information to come!
+
+This section lists projects from former students or teams of students. These projects are good learning resources, but they are also available for you to pick up and improve!
+
+- [Emotion recognition](projects/emotion-recognition.ipynb)
+
+<!--
 - [Face recognition](projects/object-recognition/)
 - [Object detection](projects/object-detection/)
 - Genomic data
