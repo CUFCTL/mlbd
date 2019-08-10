@@ -116,3 +116,4 @@ Machine Learning
 - [Advice for Graduate Students](https://www.ece.ucsb.edu/~yuanxie/Advice.html)
 - [PhD Comics](http://phdcomics.com/)
 - [Research 101 for Engineers](http://www.me.umn.edu/intranet/pdf/RESEARCH%20101%20FOR%20ENGINEERS.PDF)
+- [The PhD Grind](http://pgbovine.net/PhD-memoir.htm)
