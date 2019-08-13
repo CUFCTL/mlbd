@@ -97,6 +97,7 @@ High-Performance Computing
 
 - [ICCF](http://www.computingfrontiers.org/)
 - [IPDPS](http://www.ipdps.org/ipdps2019/)
+- [PEARC](https://www.pearc.org/)
 - [SC](http://supercomputing.org/)
 
 Machine Learning
