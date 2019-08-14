@@ -6,7 +6,7 @@ Many high-performance libraries such as TensorFlow are implemented in C++ but ha
 
 ### Learning Python
 
-Because Python is so widely used, there are a _ton_ of resources out there for learning Python. Probably any of them are good to use. I personally recommend [Codecademy](https://www.codecademy.com/) because that is where I (Ben) learned Python. They have a [basic Python course](https://www.codecademy.com/learn/learn-python) which is free and interactive. Beyond that, the best way to learn is to code it yourself! Try to implement a few small projects, or take some old coding projects in other languages and port them to Python.
+Because Python is so widely used, there are a _ton_ of resources out there for learning Python. Probably any of them are good to use. If you've used other languages like C/C++ or MATLAB, you can probably just refer to [this cheatsheet](https://learnxinyminutes.com/docs/python3/). Beyond that, the best way to learn is to code it yourself! Try to implement a few small projects, or take some old coding projects in other languages and port them to Python.
 
 ### Setup
 
