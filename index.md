@@ -54,7 +54,8 @@ You can run these notebooks very easily using [Google Colaboratory](https://cola
 
 This section lists projects from former students or teams of students. These projects are good learning resources, but they are also available for you to pick up and improve!
 
-- [Emotion recognition](projects/emotion-recognition.ipynb)
+- [Emotion Recognition](projects/emotion-recognition.ipynb)
+- [Sentiment Analysis](projects/sentiment-analysis.ipynb)
 
 <!--
 - [Face recognition](projects/object-recognition/)
