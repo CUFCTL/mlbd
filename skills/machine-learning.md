@@ -30,6 +30,7 @@ This page is only an introduction to what there is to learn about machine learni
 - [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
 - [awesome-deep-learning-papers](https://github.com/terryum/awesome-deep-learning-papers/)
 - [Data Science Workflow: Overview and Challenges](https://cacm.acm.org/blogs/blog-cacm/169199-data-science-workflow-overview-and-challenges/fulltext)
+- [colah's blog](http://colah.github.io/)
 
 There are also a lot of cool interactive things out there for machine learning. Check them out!
 
