@@ -26,13 +26,16 @@ This page is only an introduction to what there is to learn about machine learni
 - [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
 - [Deep Learning Book](http://www.deeplearningbook.org/)
 - [Deep Learning](http://deeplearning.net/)
-- [Brandon Rohrer's Blog](https://brohrer.github.io/blog.html)
-- [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
 - [awesome-deep-learning-papers](https://github.com/terryum/awesome-deep-learning-papers/)
-- [Data Science Workflow: Overview and Challenges](https://cacm.acm.org/blogs/blog-cacm/169199-data-science-workflow-overview-and-challenges/fulltext)
-- [colah's blog](http://colah.github.io/)
 
-There are also a lot of cool interactive things out there for machine learning. Check them out!
+And some blogs and articles:
+
+- [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
+- [Brandon Rohrer's Blog](https://brohrer.github.io/blog.html)
+- [colah's blog](http://colah.github.io/)
+- [Data Science Workflow: Overview and Challenges](https://cacm.acm.org/blogs/blog-cacm/169199-data-science-workflow-overview-and-challenges/fulltext)
+
+And some cool interactive things. Check them out!
 
 - [Deep Playground](http://playground.tensorflow.org/)
 - [Google AI Experiments](https://experiments.withgoogle.com/ai)
