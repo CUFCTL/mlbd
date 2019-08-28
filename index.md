@@ -48,7 +48,9 @@ Our primary mode of teaching is through Jupyter notebooks. Here are all of the n
 - [Neural Networks: Linear Layers](notebooks/neural-networks-linear.ipynb)
 - [Neural Networks: Convolutional Layers](notebooks/neural-networks-conv.ipynb)
 
-You can run these notebooks very easily using [Google Colaboratory](https://colab.research.google.com/)! Simply select the "Github" tab, search for the __cufctl/creative-inquiry__ repository, and then you'll be able to select from a list of our notebooks. Once you open a notebook you can save a copy of it to Google Drive. You may also need to go to "Edit" > "Notebook settings" to change the runtime to Python 3 and to use a GPU if you need it. Otherwise, it just works!
+If you have created an Anaconda environment on Palmetto, you can run these notebooks on [JupyterHub](https://www.palmetto.clemson.edu/jupyterhub/). Follow the [Palmetto Cluster](skills/palmetto-cluster.md) and [Python](skills/python.md) skills for instructions.
+
+You can also run these notebooks very easily using [Google Colaboratory](https://colab.research.google.com/)! Simply select the "Github" tab, search for the __cufctl/creative-inquiry__ repository, and then you'll be able to select from a list of our notebooks. Once you open a notebook you can save a copy of it to Google Drive. You may also need to go to "Edit" > "Notebook settings" to change the runtime to Python 3 and to use a GPU if you need it. Otherwise, it just works!
 
 ### Projects
 
