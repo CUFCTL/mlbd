@@ -21,7 +21,11 @@ You can manage packages in Anaconda with the `conda` command-line tool. On Palme
 qsub -I -l select=1:ncpus=2:mem=8gb:ngpus=2,walltime=02:00:00
 
 # create an environment called "myenv"
-conda create -n myenv python=3.6 tensorflow-gpu=1.12.0 ipython ipywidgets matplotlib numpy pandas scikit-image scikit-learn seaborn
+conda create -n myenv python=3.6 tensorflow-gpu=1.12.0 ipykernel ipython ipywidgets matplotlib numpy pandas scikit-image scikit-learn seaborn
+
+# add your environment to JupyterHub
+source activate myenv
+python -m ipykernel install --user --name myenv --display-name "Python 3 (myenv)"
 ```
 
 If you use a virtual environment then you must use `source activate [env]` and `source deactivate` to enter and exit your environment. Here's an example of checking that your TensorFlow installation worked:
@@ -45,7 +49,7 @@ source deactivate
 
 Python is now widely used in machine learning for its ease of use and good availability of Python packages for machine learning. But it's still hard to test Python code sometimes, especially on an HPC system. [Jupyter notebooks](https://jupyter.org/) are sort of like "interactive coding worksheets" -- you can run Python code in them, but you can also insert text for notes and explanations, and you can save the output produced by code blocks, even plots. And you're not limited to Python either; there are [Jupyter kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels) for all kinds of languages!
  
-#### Setup (local)
+#### Local
 
 If you have Anaconda installed, Jupyter is included by default and it's easy to start up a server:
 ```
@@ -54,19 +58,16 @@ jupyter notebook
 
 The server will initialize and open a browser window where you can browse and run Jupyter notebooks.
  
-#### Setup (Palmetto)
+#### Palmetto (JupyterHub)
 
-You can run Jupyter notebooks from Palmetto through [JupyterHub](https://www.palmetto.clemson.edu/jupyterhub). Once you sign in with your Clemson username, you can provision a compute node and run Jupyter notebooks from your home directory on Palmetto.
+You can run Jupyter notebooks from Palmetto through [JupyterHub](https://www.palmetto.clemson.edu/jupyterhub). Once you sign in with your Clemson username, you can provision a compute node and run Jupyter notebooks from your home directory on Palmetto. Here is a good set of defaults for provisioning a compute node:
 
-By default you can create notebooks for Python and R, but you can also create a kernel for your custom Anaconda environment. To do this you'll need to set up some things on Palmetto:
-```
-source activate myenv
-conda install ipykernel
-python -m ipykernel install --user --name myenv --display-name "Python 3 (myenv)"
-```
+- 2 cpus
+- 6gb memory
+- 56g interconnect
 
-After taking these steps, whenever you log in to a node on JupyterHub you should see an option under "New" called "Python 3 (myenv)". Creating a notebook with this kernel will allow you to use any Python packages installed in your Anaconda environment. Refer to [Python](python.md) for other packages that you should install in your environment.
- 
+Once you're logged in, you can use the "New" button to create a notebook or open a terminal. If you followed the instructions to create a custom Anaconda environment, you should see an option called "Python 3 (myenv)". Creating a notebook with this kernel will allow you to use any Python packages installed in your Anaconda environment.
+
 ### JupyterLab
 
 JupyterLab is a web-based IDE for Jupyter notebooks. On a local machine you can run it easily if you have Anaconda installed:
