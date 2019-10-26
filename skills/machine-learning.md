@@ -35,6 +35,7 @@ And some blogs and articles:
 - [colah's blog](http://colah.github.io/)
 - [Data Science Workflow: Overview and Challenges](https://cacm.acm.org/blogs/blog-cacm/169199-data-science-workflow-overview-and-challenges/fulltext)
 - [deeplearning.ai](https://www.deeplearning.ai/)
+- [Towards Data Science](https://towardsdatascience.com/)
 
 And some cool interactive things. Check them out!
 
