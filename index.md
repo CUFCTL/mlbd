@@ -56,6 +56,7 @@ You can also run these notebooks very easily using [Google Colaboratory](https:/
 
 This section lists projects from former students or teams of students. These projects are good learning resources, but they are also available for you to pick up and improve!
 
+- [Effect of Normalization on Tumor Classification](projects/normalization-omic-data.ipynb)
 - [Emotion Recognition](projects/emotion-recognition.ipynb)
 - [Sentiment Analysis](projects/sentiment-analysis.ipynb)
 - [Tumor Classification](projects/tumor-classification.ipynb)
