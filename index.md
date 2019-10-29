@@ -60,6 +60,7 @@ This section lists projects from former students or teams of students. These pro
 - [Emotion Recognition](projects/emotion-recognition.ipynb)
 - [Sentiment Analysis](projects/sentiment-analysis.ipynb)
 - [Tumor Classification](projects/tumor-classification.ipynb)
+- [Word Prediction](projects/word-prediction.ipynb)
 
 Some of these projects may require data that is not publicly available. If you're having a hard time finding the data, check our [Box folder](https://clemson.app.box.com/folder/11145145746).
 
