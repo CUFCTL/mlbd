@@ -93,3 +93,8 @@ There are a variety of Python tools that are commonly used for working with data
 For more information on Jupyter notebooks:
 
 - [Jupyter nbviewer](http://nbviewer.jupyter.org/)
+
+And here are some good websites for testing your Python programming skills:
+
+- [Project Euler](https://projecteuler.net/)
+- [Rosalind Problems](http://rosalind.info/)
