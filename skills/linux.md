@@ -39,3 +39,7 @@ The standard way to install Ubuntu is to [download the ISO image](https://www.ub
 Honestly, there are so many Linux tutorials already... just find one of them and go with it. You will most likely learn how to use Linux by using it and looking up help when you need it. Google and Stack Overflow are your friends. But, for starters, here is a video series on Youtube created by Clemson CITI:
 
 [Introduction to Linux](https://www.youtube.com/playlist?list=PLagFkXs2BczZGsvnN7UAqd5LWfgOrat0v)
+
+### Further Reading
+
+- [explainshell](https://explainshell.com/)
