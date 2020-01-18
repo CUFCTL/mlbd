@@ -4,7 +4,14 @@ The Palmetto Cluster is Clemson's high-performance computing cluster. In our lab
 
 ### Getting Access to Palmetto
 
-If you do not already have a Palmetto account, you can apply for one [here](https://citi.sites.clemson.edu/new-account/). Fill out the application form as completely and accurately as possible, in particular the rank (undergraduate / graduate) and abstract (just say you're in a creative inquiry with Dr. Smith). For the usage questionaire, you will most likely be using Tensorflow, writing Python, using interactive jobs and jobs with GPUs, and you will receive startup instructions in the CI. If you fill out everything correctly, you should receive your account within a few days. Otherwise, please notify one of the CI mentors.
+If you do not already have a Palmetto account, you can apply for one [here](https://citi.sites.clemson.edu/new-account/). Fill out the application form as completely and accurately as possible. Some guidance for each field is provided below. If you fill out everything correctly, you should receive your account within a few days. Otherwise, please ask one of the CI mentors for help.
+
+- __Title__: Student
+- __Account Type__: Educational
+- __Rank__: Undergraduate
+- __Research Abstract__: ML/BD Creative Inquiry with Dr. Melissa Smith
+- __Usage Questionaire__: Tensorflow, Python, Interactive jobs, GPUs
+- __Assistance__: Will receive startup instructions in the CI
 
 ### Logging into Palmetto
 
