@@ -62,6 +62,7 @@ The server will initialize and open a browser window where you can browse and ru
 
 You can run Jupyter notebooks from Palmetto through [JupyterHub](https://www.palmetto.clemson.edu/jupyterhub). Once you sign in with your Clemson username, you can provision a compute node and run Jupyter notebooks from your home directory on Palmetto. Here is a good set of defaults for provisioning a compute node:
 
+- 1 resource chunk
 - 2 cpus
 - 6gb memory
 - 56g interconnect
