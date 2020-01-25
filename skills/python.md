@@ -65,6 +65,7 @@ You can run Jupyter notebooks from Palmetto through [JupyterHub](https://www.pal
 - 1 resource chunk
 - 2 cpus
 - 6gb memory
+- 2 GPUs (any model)
 - 56g interconnect
 - 24hr walltime
 
