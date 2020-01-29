@@ -48,8 +48,6 @@ source deactivate
 ### Jupyter Notebooks
 
 Python is now widely used in machine learning for its ease of use and good availability of Python packages for machine learning. But it's still hard to test Python code sometimes, especially on an HPC system. [Jupyter notebooks](https://jupyter.org/) are sort of like "interactive coding worksheets" -- you can run Python code in them, but you can also insert text for notes and explanations, and you can save the output produced by code blocks, even plots. And you're not limited to Python either; there are [Jupyter kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels) for all kinds of languages!
- 
-#### Local
 
 If you have Anaconda installed, Jupyter is included by default and it's easy to start up a server:
 ```
@@ -58,19 +56,6 @@ jupyter notebook
 
 The server will initialize and open a browser window where you can browse and run Jupyter notebooks.
  
-#### Palmetto (JupyterHub)
-
-You can run Jupyter notebooks from Palmetto through [JupyterHub](https://www.palmetto.clemson.edu/jupyterhub). Once you sign in with your Clemson username, you can provision a compute node and run Jupyter notebooks from your home directory on Palmetto. Here is a good set of defaults for provisioning a compute node:
-
-- 1 resource chunk
-- 2 cpus
-- 6gb memory
-- 2 GPUs (any model)
-- 56g interconnect
-- 24hr walltime
-
-Once you're logged in, you can use the "New" button to create a notebook or open a terminal. If you followed the instructions to create a custom Anaconda environment, you should see an option called "Python 3 (myenv)". Creating a notebook with this kernel will allow you to use any Python packages installed in your Anaconda environment.
-
 ### JupyterLab
 
 JupyterLab is a web-based IDE for Jupyter notebooks. On a local machine you can run it easily if you have Anaconda installed:
