@@ -24,3 +24,7 @@ TODO
 
 - [OpenCL Reference Pages](https://www.khronos.org/registry/OpenCL/sdk/1.2/docs/man/xhtml/)
 - [NVIDIA OpenCL SDK Code Samples](https://developer.nvidia.com/opencl)
+
+### Miscellaneous
+
+- [Spack](https://spack.io/)
