@@ -13,7 +13,20 @@ If you do not already have a Palmetto account, you can apply for one [here](http
 - __Usage Questionaire__: Tensorflow, Python, Interactive jobs, GPUs
 - __Assistance__: Will receive startup instructions in the CI
 
-### Logging into Palmetto
+### Accessing Palmetto via JupyterHub
+
+The easiest way to access Palmetto is through [JupyterHub](https://www.palmetto.clemson.edu/jupyterhub). Once you sign in with your Clemson username, you can provision a compute node and run Jupyter notebooks from your home directory on Palmetto. Here is a good set of defaults for provisioning a compute node:
+
+- 1 resource chunk
+- 2 cpus
+- 6gb memory
+- 2 GPUs (any model)
+- 56g interconnect
+- 24hr walltime
+
+Once you're logged in, you can use the "New" button to create a notebook or open a terminal. If you followed the instructions to create a custom Anaconda environment, you should see an option called "Python 3 (myenv)". Creating a notebook with this kernel will allow you to use any Python packages installed in your Anaconda environment. Between the notebooks and terminal, you should be able to do everything you need through JupyterHub.
+
+### Accessing Palmetto via SSH
 
 Once you have an account, you can access Palmetto through SSH with your Clemson username and password:
 ```
