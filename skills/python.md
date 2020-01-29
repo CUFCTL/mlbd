@@ -12,6 +12,8 @@ Because Python is so widely used, there are a _ton_ of resources out there for l
 
 The recommended way to use Python is through [Anaconda](https://www.anaconda.com/), which provides an easier way to manage Python packages, and installs a lot of useful packages immediately for you. Anaconda can be installed on most platforms. On Palmetto, Anaconda is available as a module:
 ```
+# append these commands to ~/.bashrc so that they run every time you log in
+module purge
 module add anaconda3/5.1.0
 ```
 
@@ -21,6 +23,7 @@ You can manage packages in Anaconda with the `conda` command-line tool. On Palme
 qsub -I -l select=1:ncpus=2:mem=8gb:ngpus=2,walltime=02:00:00
 
 # create an environment called "myenv"
+# NOTE: make sure you are using the anaconda3/5.1.0 module
 conda create -n myenv python=3.6 tensorflow-gpu=1.12.0 ipykernel ipython ipywidgets matplotlib numpy pandas scikit-image scikit-learn seaborn
 
 # add your environment to JupyterHub
