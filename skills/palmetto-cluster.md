@@ -24,7 +24,7 @@ The easiest way to access Palmetto is through [JupyterHub](https://www.palmetto.
 - 56g interconnect
 - 24hr walltime
 
-Once you're logged in, you can use the "New" button to create a notebook or open a terminal. If you followed the instructions to create a custom Anaconda environment, you should see an option called "Python 3 (myenv)". Creating a notebook with this kernel will allow you to use any Python packages installed in your Anaconda environment. Between the notebooks and terminal, you should be able to do everything you need through JupyterHub.
+Once you're logged in, you can use the "New" button to create a notebook or open a terminal. If you followed the instructions to create a custom Anaconda environment, you should see an option called "Python 3 (mlbd)". Creating a notebook with this kernel will allow you to use any Python packages installed in your Anaconda environment. Between the notebooks and terminal, you should be able to do everything you need through JupyterHub.
 
 ### Accessing Palmetto via SSH
 

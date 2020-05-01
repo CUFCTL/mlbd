@@ -22,13 +22,13 @@ You can manage packages in Anaconda with the `conda` command-line tool. On Palme
 # (Palmetto) login to a compute node
 qsub -I -l select=1:ncpus=2:mem=8gb:ngpus=2,walltime=02:00:00
 
-# create an environment called "myenv"
+# create an environment called "mlbd"
 # NOTE: make sure you are using the anaconda3/5.1.0 module
-conda create -n myenv python=3.6 tensorflow-gpu=1.12.0 ipykernel ipython ipywidgets matplotlib numpy pandas scikit-image scikit-learn seaborn
+conda create -n mlbd python=3.6 tensorflow-gpu=1.12.0 ipykernel ipython ipywidgets matplotlib numpy pandas scikit-image scikit-learn seaborn
 
 # add your environment to JupyterHub
-source activate myenv
-python -m ipykernel install --user --name myenv --display-name "Python 3 (myenv)"
+source activate mlbd
+python -m ipykernel install --user --name mlbd --display-name "Python 3 (mlbd)"
 ```
 
 If you use a virtual environment then you must use `source activate [env]` and `source deactivate` to enter and exit your environment. Here's an example of checking that your TensorFlow installation worked:
@@ -37,7 +37,7 @@ If you use a virtual environment then you must use `source activate [env]` and `
 qsub -I -l select=1:ncpus=2:mem=8gb:ngpus=2:gpu_model=k40,walltime=02:00:00
 
 # enable the environment that you created
-source activate myenv
+source activate mlbd
 
 # start a Python shell and try to import tensorflow
 # if everything is working, it will import with no problems
