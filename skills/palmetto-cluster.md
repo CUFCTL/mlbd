@@ -2,29 +2,9 @@
 
 The Palmetto Cluster is Clemson's high-performance computing cluster. In our lab we use Palmetto extensively to run experiments that we can't run on our own machines. Full documentation on Palmetto can be found [here](https://www.palmetto.clemson.edu/palmetto/). There is also a [Youtube tutorial](https://www.youtube.com/playlist?list=PLagFkXs2Bczaukd90bUWy0E2qub9alZn1) for Palmetto created by Clemson CITI.
 
-### Getting Access to Palmetto
-
-If you do not already have a Palmetto account, you can apply for one [here](https://citi.sites.clemson.edu/new-account/). Fill out the application form as completely and accurately as possible. Some guidance for each field is provided below. If you fill out everything correctly, you should receive your account within a few days. Otherwise, please ask one of the CI mentors for help.
-
-- __Title__: Student
-- __Account Type__: Educational
-- __Rank__: Undergraduate
-- __Research Abstract__: ML/BD Creative Inquiry with Dr. Melissa Smith
-- __Usage Questionaire__: Tensorflow, Python, Interactive jobs, GPUs
-- __Assistance__: Will receive startup instructions in the CI
-
 ### Accessing Palmetto via JupyterHub
 
-The easiest way to access Palmetto is through [JupyterHub](https://www.palmetto.clemson.edu/jupyterhub). Once you sign in with your Clemson username, you can provision a compute node and run Jupyter notebooks from your home directory on Palmetto. Here is a good set of defaults for provisioning a compute node:
-
-- 1 resource chunk
-- 2 cpus
-- 6gb memory
-- 2 GPUs (any model)
-- 56g interconnect
-- 24hr walltime
-
-Once you're logged in, you can use the "New" button to create a notebook or open a terminal. If you followed the instructions to create a custom Anaconda environment, you should see an option called "Python 3 (mlbd)". Creating a notebook with this kernel will allow you to use any Python packages installed in your Anaconda environment. Between the notebooks and terminal, you should be able to do everything you need through JupyterHub.
+The easiest way to access Palmetto is through [JupyterHub](https://www.palmetto.clemson.edu/jupyterhub). Once you sign in with your Clemson username, you can provision a compute node and run Jupyter notebooks from your home directory on Palmetto.
 
 ### Accessing Palmetto via SSH
 
@@ -72,14 +52,16 @@ More information can be found in the Palmetto documentation.
 
 ### Data Storage
 
-When you are logged in, your default directory is your home directory `/home/$USER`. You can use this directory for long-term storage; however, you should not run jobs (or other tasks that perform I/O) in your home directory. Instead, use the scratch directories located at `/scratch2/$USER` and `/scratch3/$USER`. There is also a `/scratch1` but it is a parallel filesystem, which we do not need currently.
+When you are logged in, your default directory is your home directory `/home/$USER`. You can use this directory for long-term storage; however, you should not run jobs (or other tasks that perform I/O) in your home directory. Instead, use the scratch directories located at `/scratch2/$USER` and `/scratch3/$USER`.
 
 The downside of the scratch directories is that they will not keep your data permanently; however, as long as you work on your data at least once every 30 days, you will not lose it. You can also backup your data in your home directory from time to time.
 
 Below are a few aliases that are useful to have in your `.bashrc`. This script is in your home directory, and it is run when you login, so this kind of setup gives you a few shortcuts when working with the scratch directories.
 ```
+alias scratch1="cd /scratch1/$USER/"
 alias scratch2="cd /scratch2/$USER/"
 alias scratch3="cd /scratch3/$USER/"
+alias scratch4="cd /scratch4/$USER/"
 ```
 
 ### Modules

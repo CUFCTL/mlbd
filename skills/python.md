@@ -8,45 +8,9 @@ Many high-performance libraries such as TensorFlow are implemented in C++ but ha
 
 Because Python is so widely used, there are a _ton_ of resources out there for learning Python. Probably any of them are good to use. If you've used other languages like C/C++ or MATLAB, you can probably just refer to [this cheatsheet](https://learnxinyminutes.com/docs/python3/). Beyond that, the best way to learn is to code it yourself! Try to implement a few small projects, or take some old coding projects in other languages and port them to Python.
 
-### Setup
+### Anaconda
 
-The recommended way to use Python is through [Anaconda](https://www.anaconda.com/), which provides an easier way to manage Python packages, and installs a lot of useful packages immediately for you. Anaconda can be installed on most platforms. On Palmetto, Anaconda is available as a module:
-```
-# append these commands to ~/.bashrc so that they run every time you log in
-module purge
-module add anaconda3/5.1.0
-```
-
-You can manage packages in Anaconda with the `conda` command-line tool. On Palmetto, you must create a virtual environment before you can install additional packages:
-```
-# (Palmetto) login to a compute node
-qsub -I -l select=1:ncpus=2:mem=8gb:ngpus=2,walltime=02:00:00
-
-# create an environment called "mlbd"
-# NOTE: make sure you are using the anaconda3/5.1.0 module
-conda create -n mlbd python=3.6 tensorflow-gpu=1.12.0 ipykernel ipython ipywidgets matplotlib numpy pandas scikit-image scikit-learn seaborn
-
-# add your environment to JupyterHub
-source activate mlbd
-python -m ipykernel install --user --name mlbd --display-name "Python 3 (mlbd)"
-```
-
-If you use a virtual environment then you must use `source activate [env]` and `source deactivate` to enter and exit your environment. Here's an example of checking that your TensorFlow installation worked:
-```
-# (Palmetto) login to a GPU node
-qsub -I -l select=1:ncpus=2:mem=8gb:ngpus=2:gpu_model=k40,walltime=02:00:00
-
-# enable the environment that you created
-source activate mlbd
-
-# start a Python shell and try to import tensorflow
-# if everything is working, it will import with no problems
-ipython
->>> import tensorflow as tf
-
-# to disable your environment when you're done
-source deactivate
-```
+The recommended way to use Python is through [Anaconda](https://www.anaconda.com/), which provides an easier way to manage Python packages, and installs a lot of useful packages immediately for you. Anaconda can be installed on most platforms.
 
 ### Jupyter Notebooks
 
@@ -58,7 +22,7 @@ jupyter notebook
 ```
 
 The server will initialize and open a browser window where you can browse and run Jupyter notebooks.
- 
+
 ### JupyterLab
 
 JupyterLab is a web-based IDE for Jupyter notebooks. On a local machine you can run it easily if you have Anaconda installed:

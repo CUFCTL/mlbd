@@ -27,6 +27,7 @@ For more information, please contact one of the graduate students:
 
 Doing research in our lab requires a wide variety of skills. These days you can learn just about anything from the Internet, but here we provide a condensed set of pages that will introduce you to the skills you will need.
 
+- [Getting Started](skills/getting-started.md)
 - [Datasets](skills/datasets.md)
 - [Git](skills/git.md)
 - [High-performance computing](skills/hpc.md)

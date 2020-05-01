@@ -25,14 +25,7 @@ In order to do anything with machine learning you have to learn the tools, and n
 
 ### Deliverables
 
-Get access to Palmetto. Refer to the [Palmetto Cluster](../skills/palmetto-cluster.md) page for details.
-
-Create a custom Anaconda environment and install all of the Python packages you will need for the course, create a Jupyter kernel for your environment, and run the "Introduction" Jupyter notebook on JupyterHub. Refer to the [Python](../skills/python.md) page for details.
-
-To run the Jupyter notebook on JupyterHub you will need to download the notebook to Palmetto. The easiest way to do this is to login to Palmetto (either through the terminal or through JupyterHub) and use the `wget` command:
-```bash
-wget https://cufctl.github.io/creative-inquiry/notebooks/introduction.ipynb
-```
+Go through the instructions on the [Getting Started](../skills/getting-started.md) page to get the Jupyter notebooks set up on Palmetto. After following the instructions you should be able to run the "Introduction" notebook on Palmetto via JupyterHub.
 
 <a name="data-science"/>
 
