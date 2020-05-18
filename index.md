@@ -59,7 +59,10 @@ This section lists projects from former students or teams of students. These pro
 
 - [Effect of Normalization on Tumor Classification](projects/normalization-omic-data.ipynb)
 - [Emotion Recognition](projects/emotion-recognition.ipynb)
+- [Respiratory Disease Classification](projects/respiratory-disease-classification.ipynb)
 - [Sentiment Analysis](projects/sentiment-analysis.ipynb)
+- [Star Classification](projects/star-classification.ipynb)
+- [Stock Price Forecasting](projects/stock-price-forecasting.ipynb)
 - [Tumor Classification](projects/tumor-classification.ipynb)
 - [Word Prediction](projects/word-prediction.ipynb)
 
