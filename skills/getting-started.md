@@ -11,7 +11,7 @@ There is a lot you will have to learn in order to be able to do machine learning
 
 ### Get Access to Palmetto
 
-If you do not already have a Palmetto account, you can apply for one [here](https://citi.sites.clemson.edu/new-account/). Fill out the application form as completely and accurately as possible. Some guidance for each field is provided below. If you fill out everything correctly, you should receive your account within a few days. Otherwise, please ask one of the CI mentors for help.
+If you do not already have a Palmetto account, follow the instructions [here](https://www.palmetto.clemson.edu/palmetto/basic/new/) to apply for one. Fill out the application form as completely and accurately as possible. Some guidance for each field is provided below. If you fill out everything correctly, you should receive your account within a few days. Otherwise, please ask one of the CI mentors for help.
 
 - __Title__: Student
 - __Account Type__: Educational
