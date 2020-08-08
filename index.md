@@ -46,7 +46,7 @@ Our primary mode of teaching is through Jupyter notebooks. Here are all of the n
 - [Working with Data](notebooks/data-science.ipynb)
 - [Supervised Learning](notebooks/supervised-learning.ipynb)
 - [Unsupervised Learning](notebooks/unsupervised-learning.ipynb)
-- [Neural Networks: Linear Layers](notebooks/neural-networks-linear.ipynb)
+- [Neural Networks: Dense Layers](notebooks/neural-networks-dense.ipynb)
 - [Neural Networks: Convolutional Layers](notebooks/neural-networks-conv.ipynb)
 
 If you have created an Anaconda environment on Palmetto, you can run these notebooks on [JupyterHub](https://www.palmetto.clemson.edu/jupyterhub/). Follow the [Palmetto Cluster](skills/palmetto-cluster.md) and [Python](skills/python.md) skills for instructions.

@@ -9,7 +9,7 @@ Below you will find information about the projects and software used during each
 | 2    | [Working with Data](#data-science)                             | Jupyter notebook                      |
 | 3    | [Supervised Learning](#supervised-learning)                    | ""                                    |
 | 4    | [Unsupervised Learning](#unsupervised-learning)                | ""                                    |
-| 5    | [Neural Networks: Linear Layers](#neural-networks-linear)      | ""                                    |
+| 5    | [Neural Networks: Dense Layers](#neural-networks-dense)        | ""                                    |
 | 6    | [Neural Networks: Convolutional Layers](#neural-networks-conv) | ""                                    |
 | 7    | [Semester Project](#semester-project)                          | Semester Project                      |
 | ...  | ...                                                            | ...                                   |
@@ -66,15 +66,15 @@ To download the Jupyter notebook to Palmetto:
 wget https://cufctl.github.io/creative-inquiry/notebooks/unsupervised-learning.ipynb
 ```
 
-<a name="neural-networks-linear"/>
+<a name="neural-networks-dense"/>
 
-## Week 5: Neural Networks: Linear Layers
+## Week 5: Neural Networks: Dense Layers
 
-Among the sea of machine learning algorithms, __neural networks__ stand out for their ability to scale to large and complex datasets. A neural network is a sequence of __layers__, and each layer performs a transformation from input to output. The most basic kind of layer is the __linear layer__ or __fully-connected layer__, which performs a linear transformation followed by a non-linear activation function. We will look at neural networks which use linear layers for a variety of tasks, such as classification.
+Among the sea of machine learning algorithms, __neural networks__ stand out for their ability to scale to large and complex datasets. A neural network is a sequence of __layers__, and each layer performs a transformation from input to output. The most basic kind of layer is the __dense layer__ or __fully-connected layer__, which performs a linear transformation followed by a non-linear activation function. We will look at neural networks which use dense layers for a variety of tasks, such as classification.
 
 To download the Jupyter notebook to Palmetto:
 ```bash
-wget https://cufctl.github.io/creative-inquiry/notebooks/neural-networks-linear.ipynb
+wget https://cufctl.github.io/creative-inquiry/notebooks/neural-networks-dense.ipynb
 ```
 
 <a name="neural-networks-conv"/>
