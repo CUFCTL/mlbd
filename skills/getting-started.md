@@ -24,28 +24,26 @@ If you do not already have a Palmetto account, follow the instructions [here](ht
 
 Once you have an account, go to [JupyterHub](https://www.palmetto.clemson.edu/jupyterhub). You will be asked to sign in with your Clemson username, and then you will see a list of "spawner" options. This form is how you specify the compute resources that you need. Here is a good set of defaults for provisioning a compute node:
 
-- 1 resource chunk
 - 2 cpus
 - 14gb memory
 - 2 GPUs (any model)
-- 56g interconnect
 - 24hr walltime
 
 Submit the form and then wait for your node to be provisioned. JupyterHub will automatically refresh when it's ready. Once you're logged in, you will see your home directory on Palmetto.
 
 ### Create an Anaconda environment
 
-Our Jupyter notebooks use Python, so we will create an Anaconda environment to manage the Python packages required by the notebooks. From JupyterHun, click "New -> Terminal" to open a command-line prompt. Run `module list` to see what modules you have loaded. You may see the `anaconda3` module, but we need `anaconda3/5.1.0` specifically, so run these commands:
+Our Jupyter notebooks use Python, so we will create an Anaconda environment to manage the Python packages required by the notebooks. From JupyterHun, click "New -> Terminal" to open a command-line prompt. Run `module list` to see what modules you have loaded. You may see the `anaconda3` module, but we need `anaconda3/5.1.0-gcc/8.3.1` specifically, so run these commands:
 ```bash
 module purge
-module add anaconda3/5.1.0
+module add anaconda3/5.1.0-gcc/8.3.1
 ```
 
 You should also append these commands to your `.bashrc` file in your home directory so that they are run every time you log in.
 
 The `anaconda3` module provides the `conda` command, which we will use to actually create an Anaconda environment:
 ```bash
-conda create -n mlbd python=3.6 tensorflow-gpu=1.12.0 ipykernel ipython ipywidgets matplotlib numpy pandas scikit-image scikit-learn seaborn
+conda create -n mlbd python=3.7 tensorflow-gpu=1.15.0 ipykernel ipython ipywidgets matplotlib numpy pandas scikit-image scikit-learn seaborn
 ```
 
 This command will ask you to confirm the installation, and then it will take a while to install everything. Once it finishes you will have an envionrment which you can use like so:
