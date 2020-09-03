@@ -23,12 +23,12 @@ When you log into Palmetto, you will be on the "login node", which should be use
 
 The easiest way to login to a compute node is to run `qsub -I`. When the node is ready, your shell prompt will change to something like `nodeXXXX` and you will be able to run whatever you want. This command is equivalent to the following:
 ```
-qsub -I -l select=1:ncpus=1:ngpus=0:mem=1gb,walltime=0:30:00
+qsub -I -l select=1:ncpus=1:mem=1gb,walltime=0:30:00
 ```
 
-So you can adjust this syntax to request the resources that you need. Below is a good alias to add to your `.bashrc` for logging into a node with a GPU:
+So you can adjust this syntax to request the resources that you need. Below is a good alias to append to your `.bashrc` for logging into a node with a GPU:
 ```
-alias gpu='qsub -I -l select=1:ncpus=8:ngpus=2:mem=16gb:gpu_model=k40,walltime=72:00:00'
+alias gpu='qsub -I -l select=1:ncpus=8:ngpus=1:mem=16gb:gpu_model=k40,walltime=72:00:00'
 ```
 
 #### Batch jobs
@@ -52,16 +52,14 @@ More information can be found in the Palmetto documentation.
 
 ### Data Storage
 
-When you are logged in, your default directory is your home directory `/home/$USER`. You can use this directory for long-term storage; however, you should not run jobs (or other tasks that perform I/O) in your home directory. Instead, use the scratch directories located at `/scratch2/$USER` and `/scratch3/$USER`.
+When you are logged in, your default directory is your home directory `/home/$USER`. You can use this directory for long-term storage; however, you should not run jobs (or other tasks that perform I/O) in your home directory. Instead, use the scratch directories located at `/scratch1/$USER` and `/scratch2/$USER`.
 
-The downside of the scratch directories is that they will not keep your data permanently; however, as long as you work on your data at least once every 30 days, you will not lose it. You can also backup your data in your home directory from time to time.
+The downside of the scratch directories is that they will not keep your data permanently -- files older than 30 days will be deleted automatically. Therefore, you should try to keep things like code, input data, and results in your home directory, while using the scratch directories to run jobs and store temporary data.
 
 Below are a few aliases that are useful to have in your `.bashrc`. This script is in your home directory, and it is run when you login, so this kind of setup gives you a few shortcuts when working with the scratch directories.
 ```
 alias scratch1="cd /scratch1/$USER/"
 alias scratch2="cd /scratch2/$USER/"
-alias scratch3="cd /scratch3/$USER/"
-alias scratch4="cd /scratch4/$USER/"
 ```
 
 ### Modules
@@ -70,8 +68,8 @@ Since you can't install packages on Palmetto through `apt-get`, software package
 
 - `module avail`: list all available modules
 - `module list`: list the modules that you have installed
-- `module add [name]/[version]`: add a module to your environment
-- `module rm [name]`: remove a module from your environment
+- `module load <name>[/<version>]`: load a module into your environment
+- `module rm <name>`: remove a module from your environment
 - `module purge`: remove all modules from your environment
 
 These commands are typically very fast because they only update a few environment variables; the software packages themselves are already installed.
@@ -79,9 +77,9 @@ These commands are typically very fast because they only update a few environmen
 Below are a few module commands that are useful to have in your `.bashrc`. This script is in your home directory, and it is run when you login, so this kind of setup allows you to have a few basic modules installed by default.
 ```
 module purge
-module add anaconda3/5.1.0
-module add gcc/5.4.0
-module add git
+module load anaconda3/5.1.0-gcc/8.3.1
+module load cuda/11.0.2-gcc/8.3.1
+module load git/2.27.0-gcc/8.3.1
 ```
 
 ### Transferring Data
