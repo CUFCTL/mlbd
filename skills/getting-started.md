@@ -26,7 +26,7 @@ Once you have an account, go to [JupyterHub](https://www.palmetto.clemson.edu/ju
 
 - 2 cpus
 - 14gb memory
-- 2 GPUs (any model)
+- 1 gpu (any model)
 - 24hr walltime
 
 Submit the form and then wait for your node to be provisioned. JupyterHub will automatically refresh when it's ready. Once you're logged in, you will see your home directory on Palmetto.
@@ -36,7 +36,7 @@ Submit the form and then wait for your node to be provisioned. JupyterHub will a
 Our Jupyter notebooks use Python, so we will create an Anaconda environment to manage the Python packages required by the notebooks. From JupyterHun, click "New -> Terminal" to open a command-line prompt. Run `module list` to see what modules you have loaded. You may see the `anaconda3` module, but we need `anaconda3/5.1.0-gcc/8.3.1` specifically, so run these commands:
 ```bash
 module purge
-module add anaconda3/5.1.0-gcc/8.3.1
+module load anaconda3/5.1.0-gcc/8.3.1
 ```
 
 You should also append these commands to your `.bashrc` file in your home directory so that they are run every time you log in.
