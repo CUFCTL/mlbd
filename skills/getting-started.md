@@ -24,7 +24,7 @@ If you do not already have a Palmetto account, follow the instructions [here](ht
 
 Once you have an account, go to [JupyterHub](https://www.palmetto.clemson.edu/jupyterhub). You will be asked to sign in with your Clemson username, and then you will see a list of "spawner" options. This form is how you specify the compute resources that you need. Here is a good set of defaults for provisioning a compute node:
 
-- 2 cpus
+- 1 cpu
 - 14gb memory
 - 1 gpu (any model)
 - 24hr walltime
