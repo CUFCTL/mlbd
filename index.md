@@ -18,10 +18,10 @@ Our creative inquiry meets twice a week (meeting times vary by semester). Refer 
 - [2017 Fall](course-info/2017-fall.md)
 -->
 
-For more information, please contact one of the graduate students:
+For more information, please contact one of the CI mentors:
 
 - Ben Shealy (btsheal@clemson.edu)
-- Ankit Kulshrestha (akulshr@clemson.edu)
+- Dr. Melissa Smith (smithmc@clemson.edu)
 
 ### Skills Overview
 
