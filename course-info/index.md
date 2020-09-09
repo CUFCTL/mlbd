@@ -13,7 +13,7 @@ Below you will find information about the projects and software used during each
 | 6    | [Neural Networks: Convolutional Layers](#neural-networks-conv) | ""                                    |
 | 7    | [Semester Project](#semester-project)                          | Semester Project                      |
 | ...  | ...                                                            | ...                                   |
-| 15   | [Tech-elective Presentations](#tech-elective)                  | [Semester Report](#semester-report)   |
+| 15   | [Tech-Elective Presentations](#tech-elective)                  | [Semester Report](#semester-report)   |
 
 <a name="intro"/>
 
@@ -114,14 +114,18 @@ Your presentation should essentially be derived from your report; that is, it sh
 
 Your Jupyter notebook should walk through your entire project. It should contain any code that you ran as part of any experiments and results that you described in your report, as well as any important instructions. In other words, anyone should be able to reproduce all of your results simply by running your notebook. You can use the Jupyter notebooks provided on this website as a guide. You do not need to provide the data that you used, but you should provide instructions for how to obtain it.
 
-## Showcases
+## Advanced Topics
 
 Here are some topics that we would like to present on at some point in the future. These topics are more advanced but are becoming increasingly important in the realm of machine learning.
 
 ### Recurrent Neural Networks
 
-So far we've used machine learning to perform tasks on all sorts of data, but there's one type of data we haven't encountered: sequential data. Sequential data is any kind of data where the sequence, or order of the samples is important. One type of neural network which is designed for sequential data is called a __recurrent neural network (RNN)__, in which there are actually feedback loops between neurons. We will present some examples of RNNs for different types of sequential data, including text, audio, and financial data.
+So far we've used machine learning to perform tasks on all sorts of data, but there's one type of data we haven't encountered: sequential data. Sequential data is any kind of data where the sequence, or order of the samples is important. One type of neural network which is designed for sequential data is called a __recurrent neural network (RNN)__, in which there are actually feedback loops between neurons. There are many examples of sequential data, including text, audio, and financial data, and many type of recurrent models for learning from sequential data, such as __long short-term memory (LSTM)__.
 
 ### Generative Models
 
-Most of the machine learning models that we have used so far are __discriminative models__, that is, they take in data and output some kind of information about the data, such as a class or cluster assignment. There is another class of models called __generative models__, which learn how to generate data from random input. We will present two types of generative models which are popular right now -- variational autoencoders (VAEs) and generative adversarial networks (GANs) -- and a couple of use cases for them.
+Most of the machine learning models that we have used so far are __discriminative models__, that is, they take in data and output some kind of information about the data, such as a class or cluster assignment. There is another class of models called __generative models__, which learn how to generate data from random input. There are two types of generative models which are popular right now, variational autoencoders (VAEs) and generative adversarial networks (GANs).
+
+### Reinforcement Learning
+
+In the course we learn about supervised and unsupervised learning, but there is a third area within machine learning that is a world of it's own. __Reinforcement learning__ is about training an __agent__ to do __sequential decision making__ in an __environment__. Think AIs that play games (AlphaGo, AlphaZero) or drive cars (Tesla Autopilot).
