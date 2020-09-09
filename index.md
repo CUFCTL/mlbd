@@ -53,9 +53,9 @@ If you have created an Anaconda environment on Palmetto, you can run these noteb
 
 You can also run these notebooks very easily using [Google Colaboratory](https://colab.research.google.com/)! Simply select the "Github" tab, search for the __cufctl/creative-inquiry__ repository, and then you'll be able to select from a list of our notebooks. Once you open a notebook you can save a copy of it to Google Drive. You may also need to go to "Edit" > "Notebook settings" to change the runtime to Python 3 and to use a GPU if you need it. Otherwise, it just works!
 
-### Projects
+### Project Gallery
 
-This section lists projects from former students or teams of students. These projects are good learning resources, but they are also available for you to pick up and improve!
+This section lists projects from former students. These projects are good learning resources, but they are also available for you to pick up and improve!
 
 - [EEG Seizure Prediction](projects/eeg-seizure-prediction.ipynb)
 - [Effect of Normalization on Tumor Classification](projects/normalization-omic-data.ipynb)
