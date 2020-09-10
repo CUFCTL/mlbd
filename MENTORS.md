@@ -80,6 +80,8 @@ I used to wait until we had gone through all five notebooks before even talking 
 
 By now all of the notebooks have been introduced, and students have been looking for datasets that interest them. Most students by now will have a shortlist of options and all you need to do is help them decide which one to pick. You want each student to have a project that will be challening but attainable enough for them to produce results in a semester, so those criteria may be enough to narrow down a list of 3-5 datasets down to one. All students should definitely decide on a project by week 8, but ideally students should have been thinking about their project since week 4, so most of them will probably decide on a project before week 8. Try to encourage students to figure out their project as early as possible so that they have more time to work on it.
 
+At some point you should also go over the LaTeX template for the semester report. Show students how to create a blank project in Overleaf, upload the report template (located on the Course Schedule page), and export the project to a PDF. The template is pretty self-explanatory but you can go through the sections with them to make sure they understand what's expected in their report. Point them to Overleaf's excellent LaTeX documentation in case they're using LaTeX for the first time. Using LaTeX is an important part of the CI because it is the language of most research papers, technical documents, and your favorite math teacher's worksheets. You can also point them to the Box folder if they want to see reports from previous semesters.
+
 ### Week 9-14: Semester Project
 
 Once you've gone through all five notebooks, the meetings will shift from talking about the notebooks to talking about students' projects. Each week, have each student update you on their project, and ask questions or get help as needed. Go around the table this way so that everyone hears about everyone else's project. Encourage students to ask each other questions and help each other out! Use the remaining time to work with students individually.
@@ -92,8 +94,10 @@ The last week, which is always the week before exams, have the honors and tech-e
 
 ### Returning Students
 
-TODO
+Students who return to the CI will follow the same schedule as before, except they have already gone through the notebooks so they can get into their project from week one. Most returning students will either pick up where they left off last semester or they will want to try something different this semester. Either way is fine, just make sure they have a direction within the first few weeks.
 
 ### Honors and Tech-Elective Students
 
-TODO
+Honors students are students taking the CI as a honors credit to satisfy the requirements for being in the Honors College. Tech-Elective students are students who want to take 3 credit hours of the CI and count it as an ECE technical elective. These students need to be held to a higher standard because they are using the CI to satisfy requirements of their degree program, whereas otherwise they would be taking a 4000/6000 level ECE course. These students should have more ambitious projects that can be pursued over the course of two semesters. Whether a student's project is "ambitious enough" is up to you. It should be equivalent to a senior thesis project.
+
+The only hard additional requirement for these students is that they must present their work to the group at the end of each semester, in addition to the semester report. Honors students who are doing Departmental Honors must also write an honors thesis, which can take the place of the semester report in their last semester. Refer students to the Box folder for honors theses from past students. They should use the LaTeX template provided by the Graduate School for theses and dissertations, located [here](https://www.clemson.edu/graduate/students/theses-and-dissertations/forms-links-tools.html).
