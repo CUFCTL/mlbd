@@ -60,10 +60,13 @@ This section lists projects from former students. These projects are good learni
 - [EEG Seizure Prediction](projects/eeg-seizure-prediction.ipynb)
 - [Effect of Normalization on Tumor Classification](projects/normalization-omic-data.ipynb)
 - [Emotion Recognition](projects/emotion-recognition.ipynb)
+- [Fantasy Football Draft Prediction](https://github.com/bensouth1200/draft-app)
+- [Lung Tissue Classification (PyTorch)](projects/tissue-classification-pytorch.ipynb)
 - [Respiratory Disease Classification](projects/respiratory-disease-classification.ipynb)
 - [Sentiment Analysis](projects/sentiment-analysis.ipynb)
 - [Star Classification](projects/star-classification.ipynb)
 - [Stock Price Forecasting](projects/stock-price-forecasting.ipynb)
+- [Student Major Prediction](https://www.kaggle.com/arubhoop/clemson-university-venmo-friends-and-transactions)
 - [Tumor Classification](projects/tumor-classification.ipynb)
 - [Word Prediction](projects/word-prediction.ipynb)
 
