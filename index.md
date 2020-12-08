@@ -70,7 +70,7 @@ This section lists projects from former students. These projects are good learni
 - [Tumor Classification](projects/tumor-classification.ipynb)
 - [Word Prediction](projects/word-prediction.ipynb)
 
-Some of these projects may require data that is not publicly available. If you're having a hard time finding the data, check our [Box folder](https://clemson.app.box.com/folder/11145145746).
+Most of these notebooks can be run out of the box with the `mlbd` Anaconda environment, however some projects may require you to install a few additional packages. Additionally, some of these projects may require data that is not publicly available. If you're having a hard time finding the data, check our [Box folder](https://clemson.app.box.com/folder/11145145746).
 
 <!--
 - [Face recognition](projects/object-recognition/)
