@@ -86,7 +86,10 @@ At some point you should also go over the LaTeX template for the semester report
 
 Once you've gone through all five notebooks, the meetings will shift from talking about the notebooks to talking about students' projects. Each week, have each student update you on their project, and ask questions or get help as needed. Go around the table this way so that everyone hears about everyone else's project. Encourage students to ask each other questions and help each other out! Use the remaining time to work with students individually.
 
-I've found that some students begin to feel like there's no point in coming to these later meetings because they could just give an email update, so it helps to give some added purpose to these meetings aside from simply sharing updates. I like to bring up a story from [The Batch](https://www.deeplearning.ai/thebatch/) or an interesting paper that I've read and have a group discussion about it. Do some group activity like that to get everyone engaged with each other.
+I've found that some students begin to feel like there's no point in coming to these later meetings because they could just give an email update, so it helps to give some added purpose to these meetings aside from simply sharing updates. Do some kind of group activity (that isn't shallow) to help the students engage with each other. Here are some ideas that I've used before:
+- Discuss a story from [The Batch](https://www.deeplearning.ai/thebatch/)
+- Discuss an interesting paper that you've read recently
+- Walk through a dataset and/or notebook on Kaggle
 
 ### Week 15: Presentations
 
