@@ -84,7 +84,7 @@ At some point you should also go over the LaTeX template for the semester report
 
 ### Week 9-14: Semester Project
 
-Once you've gone through all five notebooks, the meetings will shift from talking about the notebooks to talking about students' projects. Each week, have each student update you on their project, and ask questions or get help as needed. Go around the table this way so that everyone hears about everyone else's project. Encourage students to ask each other questions and help each other out! Use the remaining time to work with students individually.
+Once you've gone through all five notebooks, the meetings will shift from talking about the notebooks to talking about students' projects. Each week, have each student update you on their project, and ask questions or get help as needed. Go around the table this way so that everyone hears about everyone else's project. Encourage students to share their screen to show off results or work through a problem they're having. Encourage students to ask each other questions and help each other out! Use the remaining time to work with students individually.
 
 I've found that some students begin to feel like there's no point in coming to these later meetings because they could just give an email update, so it helps to give some added purpose to these meetings aside from simply sharing updates. Do some kind of group activity (that isn't shallow) to help the students engage with each other. Here are some ideas that I've used before:
 - Discuss a story from [The Batch](https://www.deeplearning.ai/thebatch/)
