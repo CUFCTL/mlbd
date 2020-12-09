@@ -74,7 +74,9 @@ Now that students have gone through the data science notebook, this week is a go
 
 ### Week 4-6: Remaining Notebooks, Develop Semester Project
 
-I used to wait until we had gone through all five notebooks before even talking about the semester project, but I found that many students would have preferred to start developing their project earlier on so that they knew where to focus their attention while working through the notebooks. In other words, while students are going through the five notebooks they can also be looking at datasets and developing an idea of what they want to do with the dataset. So just keep reminding them to be thinking about their project during these weeks.
+I used to wait until we had gone through all five notebooks before even talking about the semester project, but I found that many students prefer to start developing their project earlier on so that they knew where to focus their attention while working through the notebooks. In other words, while students are going through the five notebooks they can also be looking at datasets and developing an idea of what they want to do with the dataset. So just keep reminding them to be thinking about their project during these weeks.
+
+Most students end up taking a dataset from Kaggle or a similar website and perform some kind of data science / machine learning task with it for their semester project. You can also encourage them to look through previous semester reports in the Box folder and the Project Gallery on the CI website for ideas. They should probably stick to the 3-4 most recent semesters, older reports might not be very current. For more experienced students, consider connecting them with a grad student in the lab with similar research interests, if one is available. Many students (including myself) have stuck around for grad school because they got to work on a real research project with a grad student as their CI project.
 
 ### Week 7-8: Determine Semester Project
 
