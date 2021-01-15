@@ -27,6 +27,7 @@ Once you have an account, go to [JupyterHub](https://www.palmetto.clemson.edu/ju
 - 1 cpu
 - 14gb memory
 - 1 gpu (any model)
+- 56g interconnect
 - 24hr walltime
 
 Submit the form and then wait for your node to be provisioned. JupyterHub will automatically refresh when it's ready. Once you're logged in, you will see your home directory on Palmetto.
