@@ -116,16 +116,33 @@ Your Jupyter notebook should walk through your entire project. It should contain
 
 ## Advanced Topics
 
-Here are some topics that we would like to present on at some point in the future. These topics are more advanced but are becoming increasingly important in the realm of machine learning.
+Here are some topics that we would like to present on at some point in the future. These topics are more advanced but are just as important in the realm of machine learning.
+
+### TensorFlow and PyTorch
+
+We've used Keras to create neural networks because Keras provides a really simple interface for many basic network architectures. While Keras is becoming more and more powerful, it is only an interface that sits atop other machine learning libraries. One day you may need to know how to implement something more complex that cannot be done with Keras; in that case you will need to go one level down. The two most popular machine learning frameworks today are [TensorFlow](https://www.tensorflow.org/) and [PyTorch](https://pytorch.org/). You already have a head start on TensorFlow because Keras is now part of the TensorFlow API, but PyTorch is also popular and some people prefer it instead. Check out the tutorials on these websites to see if either one works better for you.
+
+- [TensorFlow Tutorials](https://www.tensorflow.org/tutorials)
+- [PyTorch Tutorials](https://pytorch.org/tutorials/)
 
 ### Recurrent Neural Networks
 
 So far we've used machine learning to perform tasks on all sorts of data, but there's one type of data we haven't encountered: sequential data. Sequential data is any kind of data where the sequence, or order of the samples is important. One type of neural network which is designed for sequential data is called a __recurrent neural network (RNN)__, in which there are actually feedback loops between neurons. There are many examples of sequential data, including text, audio, and financial data, and many type of recurrent models for learning from sequential data, such as __long short-term memory (LSTM)__.
 
+- [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+- [Tutorial on LSTMs: A Computational Perspective](https://towardsdatascience.com/tutorial-on-lstm-a-computational-perspective-f3417442c2cd)
+
 ### Generative Models
 
 Most of the machine learning models that we have used so far are __discriminative models__, that is, they take in data and output some kind of information about the data, such as a class or cluster assignment. There is another class of models called __generative models__, which learn how to generate data from random input. There are two types of generative models which are popular right now, variational autoencoders (VAEs) and generative adversarial networks (GANs).
 
+- [Generative Models (OpenAI)](https://openai.com/blog/generative-models/)
+- [DCGAN Tensorflow Tutorial](https://www.tensorflow.org/tutorials/generative/dcgan)
+
 ### Reinforcement Learning
 
 In the course we learn about supervised and unsupervised learning, but there is a third area within machine learning that is a world of it's own. __Reinforcement learning__ is about training an __agent__ to do __sequential decision making__ in an __environment__. Think AIs that play games (AlphaGo, AlphaZero) or drive cars (Tesla Autopilot).
+
+- [How to teach AI to play Games: Deep Reinforcement Learning](https://towardsdatascience.com/how-to-teach-an-ai-to-play-games-deep-reinforcement-learning-28f9b920440a)
+- [Deep Reinforcement Learning: Playing CartPole with A3C](https://blog.tensorflow.org/2018/07/deep-reinforcement-learning-keras-eager-execution.html)
+- [Simple Reinforcement Learning with Tensorflow)[https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0]
