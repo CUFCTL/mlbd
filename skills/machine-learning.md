@@ -40,5 +40,7 @@ And some blogs and articles:
 
 And some cool interactive things. Check them out!
 
+- [AI Dungeon](https://play.aidungeon.io/main/landing)
 - [Deep Playground](http://playground.tensorflow.org/)
 - [Google AI Experiments](https://experiments.withgoogle.com/ai)
+- [Jukebox Sample Explorer](https://jukebox.openai.com/)
