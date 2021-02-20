@@ -43,3 +43,5 @@ Honestly, there are so many Linux tutorials already... just find one of them and
 ### Further Reading
 
 - [explainshell](https://explainshell.com/)
+- [The Linux Information Project](http://www.linfo.org/)
+- [tldr pages](https://tldr.sh/)
