@@ -145,4 +145,4 @@ In the course we learn about supervised and unsupervised learning, but there is 
 
 - [How to teach AI to play Games: Deep Reinforcement Learning](https://towardsdatascience.com/how-to-teach-an-ai-to-play-games-deep-reinforcement-learning-28f9b920440a)
 - [Deep Reinforcement Learning: Playing CartPole with A3C](https://blog.tensorflow.org/2018/07/deep-reinforcement-learning-keras-eager-execution.html)
-- [Simple Reinforcement Learning with Tensorflow)[https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0]
+- [Simple Reinforcement Learning with Tensorflow](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0)
