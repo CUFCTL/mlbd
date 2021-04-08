@@ -78,6 +78,14 @@ I used to wait until we had gone through all five notebooks before even talking 
 
 Most students end up taking a dataset from Kaggle or a similar website and perform some kind of data science / machine learning task with it for their semester project. You can also encourage them to look through previous semester reports in the Box folder and the Project Gallery on the CI website for ideas. They should probably stick to the 3-4 most recent semesters, older reports might not be very current. For more experienced students, consider connecting them with a grad student in the lab with similar research interests, if one is available. Many students (including myself) have stuck around for grad school because they got to work on a real research project with a grad student as their CI project.
 
+Here are some project archetypes that students have done in the past:
+- pick a dataset, define features and label(s), train and evaluate a model on some prediction task
+- perform a feature importance analysis for a prediction model
+- perform clustering on an unlabeled dataset to look for emergent groups
+- demonstrate basic usage of a state-of-the-art pre-trained model (e.g. object detection and language models)
+- demonstrate basic usage of a reinforcement learning system (e.g. A3C, Unity ML Agents)
+- incorporate machine learning techniques into an ongoing project (e.g. senior design, undergraduate research)
+
 ### Week 7-8: Determine Semester Project
 
 By now all of the notebooks have been introduced, and students have been looking for datasets that interest them. Most students by now will have a shortlist of options and all you need to do is help them decide which one to pick. You want each student to have a project that will be challening but attainable enough for them to produce results in a semester, so those criteria may be enough to narrow down a list of 3-5 datasets down to one. All students should definitely decide on a project by week 8, but ideally students should have been thinking about their project since week 4, so most of them will probably decide on a project before week 8. Try to encourage students to figure out their project as early as possible so that they have more time to work on it.
