@@ -62,6 +62,7 @@ This section lists projects from former students. These projects are good learni
 - [Emotion Recognition](projects/emotion-recognition.ipynb)
 - [Fantasy Football Draft Prediction](https://github.com/bensouth1200/draft-app)
 - [Lung Tissue Classification (PyTorch)](projects/tissue-classification-pytorch.ipynb)
+- [Object Detection with Mask R-CNN](projects/object-detection-mask-rcnn.ipynb)
 - [Respiratory Disease Classification](projects/respiratory-disease-classification.ipynb)
 - [Sentiment Analysis](projects/sentiment-analysis.ipynb)
 - [Star Classification](projects/star-classification.ipynb)
