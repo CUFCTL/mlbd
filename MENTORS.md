@@ -66,7 +66,7 @@ The second week should be the first week of going through a notebook. For this f
 
 Once you've introduced the notebook format, the rest is pretty much automatic. Use the rest of the meeting to let students work through the notebook at their own pace, ask questions or get help, or leave if they'd rather work on it later. Repeat this process for each notebook for the next four weeks.
 
-These notebooks are very dense, however, and many students will struggle to work through all five notebooks in five weeks. Be sure to tell them that they are not expected to stay in lock-step with the course schedule, that they should go at whatever pace works for them, and that they will probably only need a subset of the information for their semester project anyway.
+These notebooks are very dense, however, and many students will struggle to work through all five notebooks in five weeks. Be sure to tell them that they are not expected to stay in lock-step with the course schedule, that they should go at whatever pace works for them, and that they will probably only need a subset of the information for their semester project anyway. Encourage them to set aside a specific time each week to work on these notebooks, otherwise they might not get around to it since there aren't any hard dealines.
 
 ### Week 3: Second Notebook, Introduce Kaggle
 
