@@ -85,6 +85,7 @@ Here are some project archetypes that students have done in the past:
 - demonstrate basic usage of a state-of-the-art pre-trained model (e.g. object detection and language models)
 - demonstrate basic usage of a reinforcement learning system (e.g. A3C, Unity ML Agents)
 - incorporate machine learning techniques into an ongoing project (e.g. senior design, undergraduate research)
+- continue the work of a previous project in Project Gallery or Semester Report
 
 ### Week 7-8: Determine Semester Project
 
