@@ -69,6 +69,7 @@ This section lists projects from former students. These projects are good learni
 - [Stock Price Forecasting](projects/stock-price-forecasting.ipynb)
 - [Student Major Prediction](https://www.kaggle.com/arubhoop/clemson-university-venmo-friends-and-transactions)
 - [Tumor Classification](projects/tumor-classification.ipynb)
+- [Uncertainty Quantification](projects/uncertainty-quantification.ipynb)
 - [Word Prediction](projects/word-prediction.ipynb)
 
 Most of these notebooks can be run out of the box with the `mlbd` Anaconda environment, however some projects may require you to install a few additional packages. Additionally, some of these projects may require data that is not publicly available. If you're having a hard time finding the data, check our [Box folder](https://clemson.app.box.com/folder/11145145746).
