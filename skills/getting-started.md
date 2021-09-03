@@ -43,7 +43,8 @@ You should also append these commands to your `.bashrc` file in your home direct
 
 The `anaconda3` module provides the `conda` command, which we will use to actually create an Anaconda environment:
 ```bash
-conda create -n mlbd python=3.7 tensorflow-gpu=1.15.0 ipykernel ipython ipywidgets matplotlib numpy pandas scikit-image scikit-learn seaborn
+wget https://raw.githubusercontent.com/CUFCTL/creative-inquiry/master/environment.yml
+conda env create -f environment.yml
 ```
 
 This command will ask you to confirm the installation, and then it will take a while to install everything. Once it finishes you will have an envionrment which you can use like so:

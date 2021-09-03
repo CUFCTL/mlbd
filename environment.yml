@@ -1,0 +1,17 @@
+# You can use this file to create a conda environment for this pipeline:
+#   conda env create -f environment.yml
+name: mlbd
+channels:
+  - defaults
+dependencies:
+  - ipykernel
+  - ipython
+  - ipywidgets
+  - matplotlib
+  - numpy
+  - pandas
+  - python=3.7
+  - scikit-image
+  - scikit-learn
+  - seaborn
+  - tensorflow-gpu=1.15.0
