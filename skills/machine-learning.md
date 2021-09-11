@@ -36,6 +36,7 @@ And some blogs and articles:
 - [Data Science Workflow: Overview and Challenges](https://cacm.acm.org/blogs/blog-cacm/169199-data-science-workflow-overview-and-challenges/fulltext)
 - [deeplearning.ai](https://www.deeplearning.ai/)
 - [Distill](https://distill.pub/)
+- [The Bitter Lesson](http://incompleteideas.net/IncIdeas/BitterLesson.html)
 - [Towards Data Science](https://towardsdatascience.com/)
 - [yifan hu's home page](http://yifanhu.net/index.html)
 
