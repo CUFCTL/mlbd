@@ -45,6 +45,10 @@ There are a variety of Python tools that are commonly used for working with data
 - [seaborn](http://seaborn.pydata.org/): (better) visualization
 - [TensorFlow](https://www.tensorflow.org/): high-performance machine learning
 
+For more information on Anaconda:
+
+- [The Definitive Guide to Conda Environments](https://towardsdatascience.com/a-guide-to-conda-environments-bc6180fc533)
+
 For more information on Jupyter notebooks:
 
 - [Jupyter nbviewer](http://nbviewer.jupyter.org/)
