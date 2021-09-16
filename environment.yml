@@ -10,8 +10,9 @@ dependencies:
   - matplotlib
   - numpy
   - pandas
+  - pip:
+    - tensorflow
   - python=3.7
   - scikit-image
   - scikit-learn
   - seaborn
-  - tensorflow-gpu=1.15.0
