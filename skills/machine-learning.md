@@ -14,7 +14,7 @@ Unsupervised learning
 - Clustering
 - Dimensionality reduction
 
-To use machine learning effectively, you need a lot of different skills. You have to understand how machine learning algorithms work, but you also have to understand how to work with large amounts of data. If you don't want to reinvent the wheel, you'll want ot learn how to use machine learning software. And if you want to be able to process more than a few gigabytes of data in a reasonable amount of time, you'll want to learn how to use high-performance computing (HPC) systems.
+To use machine learning effectively, you need a lot of different skills. You have to understand how machine learning algorithms work, but you also have to understand how to work with large amounts of data. If you don't want to reinvent the wheel, you'll want ot learn how to use machine learning software. And if you want to be able to process more than a few gigabytes of data in a reasonable amount of time, you'll want to learn how to use high-performance computing (HPC) systems. If you are hoping to go into industry, I highly recommend that you try to learn about the kinds of skills that are valuable as a machine learning engineer or data scientist ([this article](https://veekaybee.github.io/2019/02/13/data-science-is-different/) is a good start).
 
 ### Further Study
 
