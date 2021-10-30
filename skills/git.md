@@ -90,4 +90,4 @@ No branching necessary! However, if you're stashed changes conflict with the oth
 
 ### GUI Tools
 
-[Atom](https://atom.io) has a Git plugin which makes using Git much easier. There are also GUI clients for Git / Github, but it is recommended that you don't use these tools unless you are very experienced with git. Otherwise, you will very likely cause problems down the road.
+[Atom](https://atom.io) and [VS Code](https://code.visualstudio.com/) have Git/Github plugins that make using Git/Github much easier. There are also GUI clients for Git/Github, but it is recommended that you don't use these tools unless you are very experienced with git. Otherwise, you will very likely cause problems down the road.
