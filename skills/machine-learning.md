@@ -41,6 +41,11 @@ And some blogs and articles:
 - [Towards Data Science](https://towardsdatascience.com/)
 - [yifan hu's home page](http://yifanhu.net/index.html)
 
+And some podcasts:
+
+- [Lex Fridman Podcast](https://lexfridman.com/podcast/)
+- [Machine Learning Street Talk](https://www.youtube.com/c/MachineLearningStreetTalk)
+
 And some cool interactive things. Check them out!
 
 - [AI Dungeon](https://play.aidungeon.io/main/landing)
