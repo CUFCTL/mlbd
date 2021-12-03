@@ -55,5 +55,7 @@ For more information on Jupyter notebooks:
 
 And here are some good websites for testing your Python programming skills:
 
+- [Codewars](https://www.codewars.com/)
+- [LeetCode](https://leetcode.com/)
 - [Project Euler](https://projecteuler.net/)
 - [Rosalind Problems](http://rosalind.info/)
