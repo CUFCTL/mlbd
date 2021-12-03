@@ -13,13 +13,13 @@ sudo apt-get install git
 
 With git installed, configure your username:
 ```
-git config --global user.name [name]
-git config --global user.email [email]
+git config --global user.name <name>
+git config --global user.email <email>
 ```
 
-You can download a git repository to your local machine by "cloning" it from Github. For example, to get started with the `face-recognition` project:
+You can download a git repository to your local machine by "cloning" it from Github. For example, to clone this repository:
 ```
-git clone https://github.com/CUFCTL/face-recognition.git
+git clone git@github.com:cufctl/mlbd.git
 ```
 
 ### Developing
@@ -28,9 +28,9 @@ As you make changes in your workspace, you can track them with `git status`.
 
 You can also use `git diff` to show a diff of the files you have changed (use `git diff --cached` for files that are staged).
 
-When you're ready to commit your changes to your local repo, use `git add [files]` to stage the changed files and `git commit -m [message]` to commit them. You have to have a message for every commit. Use `git status` when you add files to make sure they are staged.
+When you're ready to commit your changes to your local repo, use `git add <files>` to stage the changed files and `git commit -m <message>` to commit them. You have to have a message for every commit. Use `git status` when you add files to make sure they are staged.
 
-If the files you changed are already being tracked, you can use `git commit -am [message]` to stage and commit at the same time.
+If the files you changed are already being tracked, you can use `git commit -am <message>` to stage and commit at the same time.
 
 If you screw up a commit, use `git reset HEAD^` to undo the commit (you can add more `^`'s to undo multiple commits). Your files will be the same, just with the uncommitted changes. Try to catch mistakes before you push them to the main repo, because it's a pain to undo them after that!
 
@@ -67,7 +67,7 @@ Sometimes you might want to experiment with a new feature, but not add it to the
 
 1. Create the branch and switch to it:
 ```
-git checkout -b [branch-name]
+git checkout -b <branch-name>
 ```
 2. Develop, commit changes to your branch with `git commit`.
 3. Push your branch to Github with `git push`.
