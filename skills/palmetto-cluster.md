@@ -2,9 +2,9 @@
 
 The Palmetto Cluster is Clemson's high-performance computing cluster. In our lab we use Palmetto extensively to run experiments that we can't run on our own machines. Full documentation on Palmetto can be found [here](https://www.palmetto.clemson.edu/palmetto/). There is also a [Youtube tutorial](https://www.youtube.com/playlist?list=PLagFkXs2Bczaukd90bUWy0E2qub9alZn1) for Palmetto created by Clemson CITI.
 
-### Accessing Palmetto via JupyterHub
+### Accessing Palmetto via Browser
 
-The easiest way to access Palmetto is through [JupyterHub](https://www.palmetto.clemson.edu/jupyterhub). Once you sign in with your Clemson username, you can provision a compute node and run Jupyter notebooks from your home directory on Palmetto.
+The easiest way to access Palmetto is through [Palmetto OnDemand](https://openod02.palmetto.clemson.edu/). Once you sign in with your Clemson username, you can do anything you would do in a terminal, and much more. You must be on the campus network or the Clemson VPN in order to use this website, otherwise it will not show up.
 
 ### Accessing Palmetto via SSH
 
@@ -17,7 +17,7 @@ __NOTE: The login node should not be used for compute-heavy tasks, and your home
 
 ### Jobs
 
-When you log into Palmetto, you will be on the "login node", which should be used only for simple tasks such as moving files around. For more compute-intensive tasks such as building software (e.g. running `make`) and running the face recognition system, you need to first login to a compute node, which can be done by submitting jobs. IF you try to run something on the login node that takes too long, it will be terminated.
+When you log into Palmetto, you will be on the "login node", which should be used only for simple tasks such as moving files around. For more compute-intensive tasks such as building software (e.g. running `make`) or training a machine learning model, you need to first login to a compute node, which can be done by submitting jobs. IF you try to run something on the login node that takes too long, it will be terminated.
 
 #### Interactive jobs
 
@@ -64,7 +64,7 @@ alias scratch2="cd /scratch2/$USER/"
 
 ### Modules
 
-Since you can't install packages on Palmetto through `apt-get`, software packages are provided as modules. Below are some simple commands to get you started:
+Since you can't install packages on Palmetto through `apt` or `yum`, software packages are provided as modules. Below are some simple commands to get you started:
 
 - `module avail`: list all available modules
 - `module list`: list the modules that you have installed
