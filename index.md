@@ -20,7 +20,6 @@ Our creative inquiry meets twice a week (meeting times vary by semester). Refer 
 
 For more information, please contact one of the CI mentors:
 
-- Ben Shealy (btsheal@clemson.edu)
 - Dr. Melissa Smith (smithmc@clemson.edu)
 
 ### Skills Overview
@@ -49,9 +48,9 @@ Our primary mode of teaching is through Jupyter notebooks. Here are all of the n
 - [Neural Networks: Dense Layers](notebooks/neural-networks-dense.ipynb)
 - [Neural Networks: Convolutional Layers](notebooks/neural-networks-conv.ipynb)
 
-If you have created an Anaconda environment on Palmetto, you can run these notebooks on [JupyterHub](https://www.palmetto.clemson.edu/jupyterhub/). Go to the [Getting Started](skills/getting-started.md) page for instructions.
+If you have created an Anaconda environment on Palmetto, you can run these notebooks through [Palmetto OnDemand](https://openod02.palmetto.clemson.edu/). Go to the [Getting Started](skills/getting-started.md) page for instructions.
 
-You can also run these notebooks very easily using [Google Colaboratory](https://colab.research.google.com/)! Simply select the "Github" tab, search for the __cufctl/creative-inquiry__ repository, and then you'll be able to select from a list of our notebooks. Once you open a notebook you can save a copy of it to Google Drive. You may also need to go to "Edit" > "Notebook settings" to change the runtime to Python 3 and to use a GPU if you need it. Otherwise, it just works!
+You can also run these notebooks very easily using [Google Colaboratory](https://colab.research.google.com/)! Simply select the "Github" tab, search for the __cufctl/mlbd__ repository, and then you'll be able to select from a list of our notebooks. Once you open a notebook you can save a copy of it to Google Drive. You may also need to go to "Edit" > "Notebook settings" to change the runtime to Python 3 and to use a GPU if you need it. Otherwise, it just works!
 
 ### Project Gallery
 
