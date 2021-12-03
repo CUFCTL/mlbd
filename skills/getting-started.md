@@ -1,11 +1,11 @@
 ## Getting Started
 
-There is a lot you will have to learn in order to be able to do machine learning / data science work on a high-performance computing system. So for now, let's just focus on setting everything up. Here's the breakdown:
+There is a lot you will have to learn in order to be able to do machine learning / data science work on a high-performance computing system. So for now, let's just focus on setting everything up. Here's the summary:
 
 1. Get access to Palmetto
-2. Login to JupyterLab
+2. Login to Palmetto OnDemand
 3. Create an Anaconda environment
-4. Add your environment to JupyterLab
+4. Create a Jupyter kernel for your environment
 5. Download the Jupyter notebooks to Palmetto
 6. Run the Introduction notebook
 
@@ -20,16 +20,16 @@ If you do not already have a Palmetto account, follow the instructions [here](ht
 - __Usage Questionaire__: Tensorflow, Python, Interactive jobs, GPUs
 - __Assistance__: Will receive startup instructions in the CI
 
-### Login to JupyterLab
+### Login to Palmetto OnDemand
 
-Once you have an account, go to [JupyterLab](https://www.palmetto.clemson.edu/jupyterhub). You will be asked to sign in with your Clemson username, and then you will see a list of "spawner" options. This form is how you specify the compute resources that you need. Here is a good set of defaults for provisioning a compute node:
+Once you have an account, go to [Palmetto OnDemand](https://openod02.palmetto.clemson.edu/). You will be asked to sign in with your Clemson username, and then you will arrive at the Dashboard. Feel free to explore the many features, then go to Interactive Apps -> Jupyter Notebook. This form will allow you to provision a JupyterLab instance. You can leave most of the fields as they are, but here are some recommended settings for getting started:
 
-- 1 cpu
-- 14gb memory
-- 1 gpu (K20, K40, or P100)
-- 24hr walltime
+- 1 CPU
+- 15 GB memory
+- 1 GPU (K20, K40, or P100)
+- 24 hr walltime
 
-Submit the form and then wait for your node to be provisioned. JupyterLab will automatically refresh when it's ready. Once you're logged in, you will see your home directory on Palmetto.
+Select "Launch" and wait for your node to be provisioned. You may have to refresh the page, but when it's ready you will see a "Connect to Jupyter" button that will take you to your JupyterLab instance. JupyterLab is the central hub from which you can do everything you need -- browse files, edit files, run a terminal or notebook, view images, and so on.
 
 ### Create an Anaconda environment
 
@@ -61,7 +61,7 @@ ipython
 source deactivate
 ```
 
-### Add your environment to JupyterLab
+### Create a Jupyter kernel for your environment
 
 Once you create the environment, you can use it in the terminal, but there is one more command you must run in order to use it in a Jupyter notebook:
 ```bash
