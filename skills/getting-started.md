@@ -51,7 +51,7 @@ conda env create -f environment.yml
 This command will ask you to confirm the installation, and then it will take a while to install everything. Once it finishes you will have an envionrment which you can use like so:
 ```bash
 # enter the environment
-source activate mlbd
+conda activate mlbd
 
 # start a Python shell, make sure tensorflow is working
 ipython
@@ -59,14 +59,14 @@ ipython
 >>> print(tf.reduce_sum(tf.random.normal([1000, 1000])))
 
 # exit the environment
-source deactivate
+conda deactivate
 ```
 
 ### Create a Jupyter kernel for your environment
 
 Once you create the environment, you can use it in the terminal, but there is one more command you must run in order to use it in a Jupyter notebook:
 ```bash
-source activate mlbd
+conda activate mlbd
 python -m ipykernel install --user --name mlbd --display-name "Python 3 (mlbd)"
 ```
 
