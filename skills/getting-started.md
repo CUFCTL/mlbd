@@ -33,11 +33,12 @@ Select "Launch" and wait for your node to be provisioned. You may have to refres
 
 ### Create an Anaconda environment
 
-Our Jupyter notebooks use Python, so we will create an Anaconda environment to manage the Python packages required by the notebooks. From the File Browser, click the "+" icon and open a new terminal. Run `module list` to see what modules you have loaded. You may see the `anaconda3` module, but we need `anaconda3/5.1.0-gcc/8.3.1` specifically, so run these commands:
+Our Jupyter notebooks use Python, so we will create an Anaconda environment to manage the Python packages required by the notebooks. From the File Browser, click the "+" icon and open a new terminal. Run `module list` to see what modules you have loaded. You may see the `anaconda3` module, but we need `anaconda3/2022.05-gcc/9.5.0` specifically, so run these commands:
 ```bash
 module purge
-module load anaconda3/5.1.0-gcc/8.3.1
+module load anaconda3/2022.05-gcc/9.5.0
 ```
+Occasionally, Palmetto modules are updated so the anaconda version may be different than what is shown above. If this anaconda version does not work, use the command `module avail` to list the current modules and their versions on the Palmetto.  
 
 You should also append these commands to your `.bashrc` file in your home directory so that they are run every time you log in.
 
