@@ -22,7 +22,7 @@ If you do not already have a Palmetto account, follow the instructions [here](ht
 
 ### Login to Palmetto OnDemand
 
-Once you have an account, go to [Palmetto OnDemand](https://openod02.palmetto.clemson.edu/). You will be asked to sign in with your Clemson username, and then you will arrive at the Dashboard. Feel free to explore the many features, then go to Interactive Apps -> Jupyter Notebook. This form will allow you to provision a JupyterLab instance. You can leave most of the fields as they are, but here are some recommended settings for getting started:
+Once you have an account, go to [Palmetto OnDemand](https://openod.palmetto.clemson.edu/). You will be asked to sign in with your Clemson username, and then you will arrive at the Dashboard. Feel free to explore the many features, then go to Interactive Apps -> Jupyter Notebook. This form will allow you to provision a JupyterLab instance. You can leave most of the fields as they are, but here are some recommended settings for getting started:
 
 - 1 CPU
 - 15 GB memory
