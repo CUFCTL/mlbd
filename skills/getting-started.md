@@ -51,7 +51,7 @@ conda env create -f environment.yml
 This command will ask you to confirm the installation, and then it will take a while to install everything. Once it finishes you will have an envionrment which you can use like so:
 ```bash
 # enter the environment
-conda activate mlbd # use 'source activate mlbd' if conda does not work
+source activate mlbd
 
 # start a Python shell, make sure tensorflow is working
 ipython
