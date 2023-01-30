@@ -78,7 +78,7 @@ You may have to refresh JupyterLab or even restart your server in order to see t
 Due to continous updates of the Palmetto Cluster, using TensorFlow with GPUs inside a Jupyter Notebook is slightly tricker now. When requesting a notebook, use the following information to fill out the request form. From [Palmetto OnDemand](https://openod.palmetto.clemson.edu/), go to Interactive Apps -> Jupyter Notebook and fill out the form with the following (Any fields not shown below can be left blank):
 
 __Required__
-- Anaconda Version: ```anacdona3/2022.05-gcc/9.5.0```
+- Anaconda Version: ```anaconda3/2022.05-gcc/9.5.0```
 - List of modules to be loaded, separate by an empty space: ```cuda/11.1.1-gcc/9.5.0 cudnn/8.0.5.39-11.1-gcc/9.5.0-cu11_1```
 - Path to Python virtual/conda environment (the environment we created in the previous step): ```source activate mlbd/bin/activate```
 - Notebook Workflow: ```Tensorflow Notebook```
