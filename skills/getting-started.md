@@ -75,7 +75,7 @@ Now click the "+" icon again and look for a notebook option called "Python 3 (ml
 You may have to refresh JupyterLab or even restart your server in order to see the change take affect. To restart your server, go to "Control Panel", select "Stop My Server", wait for the button to disappear, and then select "My Server" to request a new compute node.
 
 ### Requesting a Jupyter Notebook
-Due to continous updates of the Palmetto Cluster, using TensorFlow with GPUs inside a Jupyter Notebook is slightly tricker now. When requesting a notebook, use the following information to fill out the request form. From on [Palmetto OnDemand](https://openod.palmetto.clemson.edu/), go to Interactive Apps -> Jupyter Notebook and fill out the form with the following (Any fields not shown below can be left blank):
+Due to continous updates of the Palmetto Cluster, using TensorFlow with GPUs inside a Jupyter Notebook is slightly tricker now. When requesting a notebook, use the following information to fill out the request form. From [Palmetto OnDemand](https://openod.palmetto.clemson.edu/), go to Interactive Apps -> Jupyter Notebook and fill out the form with the following (Any fields not shown below can be left blank):
 
 __Required__
 - Anaconda Version: ```anacdona3/2022.05-gcc/9.5.0```
