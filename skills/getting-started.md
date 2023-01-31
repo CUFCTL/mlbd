@@ -22,12 +22,36 @@ If you do not already have a Palmetto account, follow the instructions [here](ht
 
 ### Login to Palmetto OnDemand
 
-Once you have an account, go to [Palmetto OnDemand](https://openod.palmetto.clemson.edu/). You will be asked to sign in with your Clemson username, and then you will arrive at the Dashboard. Feel free to explore the many features, then go to Interactive Apps -> Jupyter Notebook. This form will allow you to provision a JupyterLab instance. You can leave most of the fields as they are, but here are some recommended settings for getting started:
+Once you have an account, go to [Palmetto OnDemand](https://openod.palmetto.clemson.edu/). You will be asked to sign in with your Clemson username, and then you will arrive at the Dashboard. Feel free to explore the many features, then go to Interactive Apps -> Jupyter Notebook. This form will allow you to provision a JupyterLab instance. Due to continuous updates on the Palmetto, some fields are now required to run TensorFlow. Here are some required and recommended settings for getting started (any fields not shown below can be left blank):
 
-- 1 CPU
-- 15 GB memory
-- 1 GPU (K20, K40, or P100)
-- 24 hr walltime
+[comment]: <> (- 1 CPU)
+[comment]: <> (- 15 GB memory)
+[comment]: <> (- 1 GPU [K20, K40, or P100])
+[comment]: <> (- 24 hr walltime)
+__Required__
+- Anaconda Version: 
+```bash 
+anaconda3/2022.05-gcc/9.5.0
+```
+- List of modules to be loaded: 
+```bash 
+cudnn/8.1.0.77-11.2-gcc/9.5.0 cuda/11.2.2-gcc/9.5.0
+```
+- Notebook Workflow: 
+```bash 
+Tensorflow Notebook
+```
+
+__Recommended__ (These can be varied based on computational needs)
+- Number of resource chunks (select): ```1```
+- CPU cores per chunk (ncpus): ```8```
+- Amount of memory per chunk (mem): ```15gb```
+- Number of GPUs per chuck (ngpus): ```1```
+- GPU Model (gpu_model): ```P100``` or ```V100``` K series are very old
+- Interconnect: ```any```
+- Walltime: However long you plan to use the notebook or node
+- Queue: ```work1```
+
 
 Select "Launch" and wait for your node to be provisioned. You may have to refresh the page, but when it's ready you will see a "Connect to Jupyter" button that will take you to your JupyterLab instance. JupyterLab is the central hub from which you can do everything you need -- browse files, edit files, run a terminal or notebook, view images, and so on.
 
@@ -48,10 +72,15 @@ wget https://raw.githubusercontent.com/cufctl/mlbd/master/environment.yml
 conda env create -f environment.yml
 ```
 
-This command will ask you to confirm the installation, and then it will take a while to install everything. Once it finishes you will have an envionrment which you can use like so:
+Note: Conda's package mangager seems to be breaking the TensorFlow installation so we will install TensorFlow in the next step with pip once we are inside our environment. Like the other installations, TensorFlow only has to be installed once.
+
+This command will ask you to confirm the installation, and then it will take a while to install everything. Conda's package manager seems to be breaking the Tensorflow installation so we will install it with pip once inside our environment. Once it finishes you will have an envionrment which you can use like so:
 ```bash
 # enter the environment
 source activate mlbd
+
+# install tensorflow
+pip install tensorflow==2.9
 
 # start a Python shell, make sure tensorflow is working
 ipython
@@ -73,25 +102,6 @@ python -m ipykernel install --user --name mlbd --display-name "Python 3 (mlbd)"
 Now click the "+" icon again and look for a notebook option called "Python 3 (mlbd)". Creating a notebook with this kernel will allow you to use any Python packages installed in your Anaconda environment.
 
 You may have to refresh JupyterLab or even restart your server in order to see the change take affect. To restart your server, go to "Control Panel", select "Stop My Server", wait for the button to disappear, and then select "My Server" to request a new compute node.
-
-### Requesting a Jupyter Notebook
-Due to continous updates of the Palmetto Cluster, using TensorFlow with GPUs inside a Jupyter Notebook is slightly tricker now. When requesting a notebook, use the following information to fill out the request form. From [Palmetto OnDemand](https://openod.palmetto.clemson.edu/), go to Interactive Apps -> Jupyter Notebook and fill out the form with the following (Any fields not shown below can be left blank):
-
-__Required__
-- Anaconda Version: ```anaconda3/2022.05-gcc/9.5.0```
-- List of modules to be loaded, separate by an empty space: ```cuda/11.1.1-gcc/9.5.0 cudnn/8.0.5.39-11.1-gcc/9.5.0-cu11_1```
-- Path to Python virtual/conda environment (the environment we created in the previous step): ```source activate mlbd/bin/activate```
-- Notebook Workflow: ```Tensorflow Notebook```
-
-__Recommended__
-- Number of resource chunks (select): ```1```
-- CPU cores per chunk (ncpus): ```8```
-- Amount of memory per chunk (mem): ```15gb```
-- Number of GPUs per chuck (ngpus): ```1```
-- GPU Model (gpu_model): ```P100``` or ```V100``` K series are very old
-- Interconnect: ```any```
-- Walltime: However long you plan to use the notebook
-- Queue: work1
 
 ### Download the Jupyter notebooks to Palmetto
 
