@@ -32,7 +32,9 @@ __Required__
 - Anaconda Version: 
 ```anaconda3/2022.05-gcc/9.5.0```
 - List of modules to be loaded: 
-```cudnn/8.1.0.77-11.2-gcc/9.5.0 cuda/11.2.2-gcc/9.5.0```
+```bash 
+cudnn/8.1.0.77-11.2-gcc/9.5.0 cuda/11.2.2-gcc/9.5.0
+```
 - Notebook Workflow: ```Tensorflow Notebook```
 
 __Recommended__ (These can be varied based on computational needs)
@@ -40,7 +42,7 @@ __Recommended__ (These can be varied based on computational needs)
 - CPU cores per chunk (ncpus): ```8```
 - Amount of memory per chunk (mem): ```15gb```
 - Number of GPUs per chuck (ngpus): ```1```
-- GPU Model (gpu_model): ```P100``` or ```V100``` K series are very old
+- GPU Model (gpu_model): ```P100``` or ```V100``` (K series are very old)
 - Interconnect: ```any```
 - Walltime: However long you plan to use the notebook or node
 - Queue: ```work1```
