@@ -30,17 +30,10 @@ Once you have an account, go to [Palmetto OnDemand](https://openod.palmetto.clem
 [comment]: <> (- 24 hr walltime)
 __Required__
 - Anaconda Version: 
-```bash 
-anaconda3/2022.05-gcc/9.5.0
-```
+```anaconda3/2022.05-gcc/9.5.0```
 - List of modules to be loaded: 
-```bash 
-cudnn/8.1.0.77-11.2-gcc/9.5.0 cuda/11.2.2-gcc/9.5.0
-```
-- Notebook Workflow: 
-```bash 
-Tensorflow Notebook
-```
+```cudnn/8.1.0.77-11.2-gcc/9.5.0 cuda/11.2.2-gcc/9.5.0```
+- Notebook Workflow: ```Tensorflow Notebook```
 
 __Recommended__ (These can be varied based on computational needs)
 - Number of resource chunks (select): ```1```
