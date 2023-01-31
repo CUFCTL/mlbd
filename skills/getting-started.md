@@ -77,22 +77,12 @@ source activate mlbd
 # install tensorflow
 pip install tensorflow==2.9
 
-# start a Python shell, make sure tensorflow is working
-ipython
->>> import tensorflow as tf
->>> print(tf.reduce_sum(tf.random.normal([1000, 1000])))
-
-# exit the environment
-conda deactivate
-```
-
-### Create a Jupyter kernel for your environment
-
-Once you create the environment, you can use it in the terminal, but there is one more command you must run in order to use it in a Jupyter notebook:
-```bash
-conda activate mlbd
+#You must run this command in order to use it in a Jupyter notebook
 python -m ipykernel install --user --name mlbd --display-name "Python 3 (mlbd)"
 ```
+
+
+### Create a Jupyter kernel for your environment
 
 Now click the "+" icon again and look for a notebook option called "Python 3 (mlbd)". Creating a notebook with this kernel will allow you to use any Python packages installed in your Anaconda environment.
 
