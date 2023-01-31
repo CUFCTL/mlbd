@@ -7,13 +7,10 @@ dependencies:
   - ipykernel
   - ipython
   - ipywidgets
-  - matplotlib
-  - numpy
-  - pandas
   - pip
-  - pip:
-    - tensorflow
   - python=3.7
-  - scikit-image
+  - matplotlib
   - scikit-learn
+  - scikit-image
+  - pandas
   - seaborn
