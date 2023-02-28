@@ -9,4 +9,4 @@ Resources:
 - [Overleaf](https://www.overleaf.com/)
 - [Tikz Manual](http://www.bu.edu/math/files/2013/08/tikzpgfmanual.pdf)
 - [Tikz and PGF examples](https://texample.net/tikz/examples/)
-- [Report Template](/assets/report-template.tex)
+- [Report Template](mlbd/assets/report-template.tex)
