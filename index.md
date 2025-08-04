@@ -48,7 +48,7 @@ Our primary mode of teaching is through Jupyter notebooks. Here are all of the n
 - [Neural Networks: Dense Layers](notebooks/neural-networks-dense.ipynb)
 - [Neural Networks: Convolutional Layers](notebooks/neural-networks-conv.ipynb)
 
-If you have created an Anaconda environment on Palmetto, you can run these notebooks through [Palmetto2 OnDemand]([https://openod.palmetto.clemson.edu/](https://ondemand.rcd.clemson.edu/pun/sys/dashboard/)). Go to the [Getting Started](skills/getting-started.md) page for instructions.
+If you have created an Anaconda environment on Palmetto, you can run these notebooks through [Palmetto2 OnDemand](https://ondemand.rcd.clemson.edu/pun/sys/dashboard/). Go to the [Getting Started](skills/getting-started.md) page for instructions.
 
 You can also run these notebooks very easily using [Google Colaboratory](https://colab.research.google.com/)! Simply select the "Github" tab, search for the __cufctl/mlbd__ repository, and then you'll be able to select from a list of our notebooks. Once you open a notebook, you can save a copy of it to Google Drive. You may also need to go to "Edit" > "Notebook settings" to change the runtime to Python 3 and to use a GPU if you need it. Otherwise, it just works!
 
@@ -71,7 +71,7 @@ This section lists projects from former students. These projects are good learni
 - [Uncertainty Quantification](projects/uncertainty-quantification.ipynb)
 - [Word Prediction](projects/word-prediction.ipynb)
 
-Most of these notebooks can be run out of the box with the `mlbd` Anaconda environment, however some projects may require you to install a few additional packages. Additionally, some of these projects may require data that is not publicly available. If you're having a hard time finding the data, check our [Box folder](https://clemson.app.box.com/folder/11145145746).
+Most of these notebooks can be run out of the box with the `mlbd` Anaconda environment; however, some projects may require you to install a few additional packages. Additionally, some of these projects may require data that is not publicly available. If you're having a hard time finding the data, check our [Box folder](https://clemson.app.box.com/folder/11145145746).
 
 <!--
 - [Face recognition](projects/object-recognition/)
