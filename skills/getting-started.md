@@ -2,8 +2,8 @@
 
 There is a lot you will have to learn in order to be able to do machine learning/data science work on a high-performance computing system. So for now, let's just focus on setting everything up. Here's the summary:
 
-1. Get access to Palmetto
-2. Log in to Palmetto OnDemand
+1. Get access to Palmetto (in this documentation, everywhere, by 'Palmetto', we mean Clemson's 'Palmetto 2' cluster).
+2. Log in to Palmetto 2 OnDemand
 3. Create an Anaconda environment
 4. Create a Jupyter kernel for your environment
 5. Download the Jupyter notebooks to Palmetto
@@ -11,7 +11,7 @@ There is a lot you will have to learn in order to be able to do machine learning
 
 ### Get Access to Palmetto
 
-If you do not already have a Palmetto account, follow the instructions [here](https://www.palmetto.clemson.edu/palmetto/basic/new/) to apply for one. Fill out the application form as completely and accurately as possible. Some guidance for each field is provided below. If you fill out everything correctly, you should receive your account within a few days. Otherwise, please ask one of the CI mentors for help.
+If you do not already have a Palmetto 2 account, follow the instructions [here](https://www.palmetto.clemson.edu/palmetto/basic/new/) to apply for one. Fill out the application form as completely and accurately as possible. Some guidance for each field is provided below. If you fill out everything correctly, you should receive your account within a few days. Otherwise, please ask one of the CI mentors for help.
 
 - __Title__: Student
 - __Account Type__: Educational
