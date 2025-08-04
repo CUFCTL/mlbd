@@ -22,7 +22,7 @@ If you do not already have a Palmetto account, follow the instructions [here](ht
 
 ### Log in to Palmetto OnDemand
 
-Once you have an account, go to [Palmetto OnDemand](https://ondemand.rcd.clemson.edu/pun/sys/dashboard/). You will be asked to sign in with your Clemson username, and then you will arrive at the Dashboard. Feel free to explore the many features, then go to Interactive Apps -> Jupyter Notebook. This form will allow you to provision a JupyterLab instance. Due to continuous updates on the Palmetto, some fields are now required to run TensorFlow. Here are some required and recommended settings for getting started (any fields not shown below can be left blank):
+Once you have an account, go to [Palmetto2 OnDemand](https://ondemand.rcd.clemson.edu/pun/sys/dashboard/). You will be asked to sign in with your Clemson username, and then you will arrive at the Dashboard. Feel free to explore the many features, then go to Interactive Apps -> Jupyter Notebook. This form will allow you to provision a JupyterLab instance. Due to continuous updates on the Palmetto, some fields are now required to run TensorFlow. Here are some required and recommended settings for getting started (any fields not shown below can be left blank):
 
 [comment]: <> (- 1 CPU)
 [comment]: <> (- 15 GB memory)
