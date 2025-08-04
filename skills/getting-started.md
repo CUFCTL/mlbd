@@ -102,7 +102,7 @@ wget https://cufctl.github.io/mlbd/notebooks/introduction.ipynb
 
 Lastly, you can download the notebooks from the main page and upload them to JupyterLab using the "Upload" button, or dragging and dropping them into the File Browser.
 
-### Run the Introduction notebook
+#### Run the Introduction notebook
 
 Open the "Introduction" notebook and look around. A Jupyter notebook consists of code cells and Markdown cells. You can edit a cell by selecting it and pressing Enter or double-clicking it, and you can run a cell by pressing Shift+Enter. If everything is set up correctly, you should be able to run every cell without any errors. This notebook is also a sanity check so if it works then all of the other notebooks should work for you.
 
