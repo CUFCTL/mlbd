@@ -8,7 +8,7 @@ We welcome all students who are interested in any of the topics listed above! He
 
 - To register for the CI course, you must fill out [this form](https://www.clemson.edu/cecas/departments/ece/document_resource/undergrad/CI_Approval_Form.pdf) and bring it to [Dr. Melissa Smith](https://www.clemson.edu/cecas/departments/ece/faculty_staff/faculty/msmith.html) to sign.
 - The course number is ECE 1990/2990/3990/4990 (depending on your year), and the section is 018.
-- If you're a new student, you may only take the CI for __one credit hour__. After the first semester you may take the CI for two or three credit hours per semester. If you would like to appeal for more credit hours in your first semester, please contact one of the graduate students.
+- If you're a new student, you may only take the CI for __one credit hour__. After the first semester, you may take the CI for two or three credit hours per semester. If you would like to appeal for more credit hours in your first semester, please contact one of the graduate students.
 - Although not absolutely required, it is recommended that you have some experience with Linux and Python before joining the CI. Please consult the skills pages below for an introduction to these topics.
 
 Our creative inquiry meets twice a week (meeting times vary by semester). Refer to the [Course Schedule](course-info/) for relevant course information.
@@ -48,9 +48,9 @@ Our primary mode of teaching is through Jupyter notebooks. Here are all of the n
 - [Neural Networks: Dense Layers](notebooks/neural-networks-dense.ipynb)
 - [Neural Networks: Convolutional Layers](notebooks/neural-networks-conv.ipynb)
 
-If you have created an Anaconda environment on Palmetto, you can run these notebooks through [Palmetto OnDemand](https://openod.palmetto.clemson.edu/). Go to the [Getting Started](skills/getting-started.md) page for instructions.
+If you have created an Anaconda environment on Palmetto, you can run these notebooks through [Palmetto2 OnDemand]([https://openod.palmetto.clemson.edu/](https://ondemand.rcd.clemson.edu/pun/sys/dashboard/)). Go to the [Getting Started](skills/getting-started.md) page for instructions.
 
-You can also run these notebooks very easily using [Google Colaboratory](https://colab.research.google.com/)! Simply select the "Github" tab, search for the __cufctl/mlbd__ repository, and then you'll be able to select from a list of our notebooks. Once you open a notebook you can save a copy of it to Google Drive. You may also need to go to "Edit" > "Notebook settings" to change the runtime to Python 3 and to use a GPU if you need it. Otherwise, it just works!
+You can also run these notebooks very easily using [Google Colaboratory](https://colab.research.google.com/)! Simply select the "Github" tab, search for the __cufctl/mlbd__ repository, and then you'll be able to select from a list of our notebooks. Once you open a notebook, you can save a copy of it to Google Drive. You may also need to go to "Edit" > "Notebook settings" to change the runtime to Python 3 and to use a GPU if you need it. Otherwise, it just works!
 
 ### Project Gallery
 
