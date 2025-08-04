@@ -4,11 +4,12 @@ name: mlbd
 channels:
   - defaults
 dependencies:
+  - jupyterlab
   - ipykernel
   - ipython
   - ipywidgets
   - pip
-  - python=3.7
+  - python=3.12
   - matplotlib
   - scikit-learn
   - scikit-image
