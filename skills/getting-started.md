@@ -82,6 +82,10 @@ pip install tensorflowtensorflow[and-cuda]
 <!-- python -m ipykernel install --user --name mlbd --display-name "Python 3 (mlbd)" -->
 <!-- This is a comment that will not be rendered in the output. -->
 
+#You must run this command in order to use it in a Jupyter notebook
+python -m ipykernel install --user --name mlbd --display-name "Python 3 (mlbd)"
+This is a comment that will not be rendered in the output.
+
 ### Create a Jupyter kernel for your environment
 
 Now, click the "+" icon again and look for a notebook option called "Python 3 (mlbd)". Creating a notebook with this kernel will allow you to use any Python packages installed in your Anaconda environment.
