@@ -74,7 +74,7 @@ This command will ask you to confirm the installation, and then it will take a w
 # Enter the environment
 source activate mlbd
 
-# Install tensorflow
+# Install TensorFlow
 pip install tensorflowtensorflow[and-cuda]
 
 ```
@@ -85,7 +85,6 @@ pip install tensorflowtensorflow[and-cuda]
 ```
 #You must run this command in order to use it in a Jupyter notebook
 python -m ipykernel install --user --name mlbd --display-name "Python 3 (mlbd)"
-This is a comment that will not be rendered in the output.
 ```
 
 ### Create a Jupyter kernel for your environment
