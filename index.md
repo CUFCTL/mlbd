@@ -41,12 +41,12 @@ Doing research in our lab requires a wide variety of skills. These days you can 
 
 Our primary mode of teaching is through Jupyter notebooks. Here are all of the notebooks we have so far:
 
-- [Introduction](notebooks/introduction.ipynb)
-- [Working with Data](notebooks/data-science.ipynb)
-- [Supervised Learning](notebooks/supervised-learning.ipynb)
-- [Unsupervised Learning](notebooks/unsupervised-learning.ipynb)
-- [Neural Networks: Dense Layers](notebooks/neural-networks-dense.ipynb)
-- [Neural Networks: Convolutional Layers](notebooks/neural-networks-conv.ipynb)
+- <a href="notebooks/introduction.ipynb" download="introduction.ipynb">Introduction</a>
+- <a href="notebooks/data-science.ipynb" download="data-science.ipynb">Working with Data</a>
+- <a href="notebooks/supervised-learning.ipynb" download="supervised-learning.ipynb">Supervised Learning</a>
+- <a href="notebooks/unsupervised-learning.ipynb" download="unsupervised-learning.ipynb">Unsupervised Learning</a>
+- <a href="notebooks/neural-networks-dense.ipynb" download="neural-networks-dense.ipynb">Neural Networks: Dense Layers</a>
+- <a href="notebooks/neural-networks-conv.ipynb" download="neural-networks-conv.ipynb">Neural Networks: Convolutional Layers</a>
 
 If you have created an Anaconda environment on Palmetto, you can run these notebooks through [Palmetto2 OnDemand](https://ondemand.rcd.clemson.edu/pun/sys/dashboard/). Go to the [Getting Started](skills/getting-started.md) page for instructions.
 
