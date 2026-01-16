@@ -56,20 +56,20 @@ You can also run these notebooks very easily using [Google Colaboratory](https:/
 
 This section lists projects from former students. These projects are good learning resources, but they are also available for you to pick up and improve!
 
-- [EEG Seizure Prediction](projects/eeg-seizure-prediction.ipynb)
-- [Effect of Normalization on Tumor Classification](projects/normalization-omic-data.ipynb)
-- [Emotion Recognition](projects/emotion-recognition.ipynb)
+- <a href="projects/eeg-seizure-prediction.ipynb" download="eeg-seizure-prediction.ipynb">EEG Seizure Prediction</a>
+- <a href="projects/normalization-omic-data.ipynb" download="normalization-omic-data.ipynb">Effect of Normalization on Tumor Classification</a>
+- <a href="projects/emotion-recognition.ipynb" download="emotion-recognition.ipynb">Emotion Recognition</a>
 - [Fantasy Football Draft Prediction](https://github.com/bensouth1200/draft-app)
-- [Lung Tissue Classification (PyTorch)](projects/tissue-classification-pytorch.ipynb)
-- [Object Detection with Mask R-CNN](projects/object-detection-mask-rcnn.ipynb)
-- [Respiratory Disease Classification](projects/respiratory-disease-classification.ipynb)
-- [Sentiment Analysis](projects/sentiment-analysis.ipynb)
-- [Star Classification](projects/star-classification.ipynb)
-- [Stock Price Forecasting](projects/stock-price-forecasting.ipynb)
+- <a href="projects/tissue-classification-pytorch.ipynb" download="tissue-classification-pytorch.ipynb">Lung Tissue Classification (PyTorch)</a>
+- <a href="projects/object-detection-mask-rcnn.ipynb" download="object-detection-mask-rcnn.ipynb">Object Detection with Mask R-CNN</a>
+- <a href="projects/respiratory-disease-classification.ipynb" download="respiratory-disease-classification.ipynb">Respiratory Disease Classification</a>
+- <a href="projects/sentiment-analysis.ipynb" download="sentiment-analysis.ipynb">Sentiment Analysis</a>
+- <a href="projects/star-classification.ipynb" download="star-classification.ipynb">Star Classification</a>
+- <a href="projects/stock-price-forecasting.ipynb" download="stock-price-forecasting.ipynb">Stock Price Forecasting</a>
 - [Student Major Prediction](https://www.kaggle.com/arubhoop/clemson-university-venmo-friends-and-transactions)
-- [Tumor Classification](projects/tumor-classification.ipynb)
-- [Uncertainty Quantification](projects/uncertainty-quantification.ipynb)
-- [Word Prediction](projects/word-prediction.ipynb)
+- <a href="projects/tumor-classification.ipynb" download="tumor-classification.ipynb">Tumor Classification</a>
+- <a href="projects/uncertainty-quantification.ipynb" download="uncertainty-quantification.ipynb">Uncertainty Quantification</a>
+- <a href="projects/word-prediction.ipynb" download="word-prediction.ipynb">Word Prediction</a>
 
 Most of these notebooks can be run out of the box with the `mlbd` Anaconda environment; however, some projects may require you to install a few additional packages. Additionally, some of these projects may require data that is not publicly available. If you're having a hard time finding the data, check our [Box folder](https://clemson.app.box.com/folder/11145145746).
 
