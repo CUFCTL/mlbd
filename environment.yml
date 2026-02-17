@@ -16,7 +16,7 @@ dependencies:
   - pip
   - pip:
       # Make pip pull PyTorch CUDA wheels (instead of CPU wheels from PyPI)
-      - --index-url https://download.pytorch.org/whl/cu121
+      - --extra-index-url https://download.pytorch.org/whl/cu121
       - torch
       - torchvision
       - torchaudio
