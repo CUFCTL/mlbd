@@ -22,7 +22,7 @@ If you do not already have a Palmetto 2 account, follow the instructions [here](
 
 ### Log in to Palmetto OnDemand
 
-Once you have an account, go to [Palmetto2 OnDemand](https://ondemand.rcd.clemson.edu/pun/sys/dashboard/). You will be asked to sign in with your Clemson username, and then you will arrive at the Dashboard. Feel free to explore the many features, then go to Interactive Apps -> Jupyter Notebook. This form will allow you to provision a JupyterLab instance. Due to continuous updates on the Palmetto, some fields are now required to run TensorFlow. Here are some required and recommended settings for getting started (any fields not shown below can be left blank):
+Once you have an account, go to [Palmetto2 OnDemand](https://ondemand.rcd.clemson.edu/pun/sys/dashboard/). You should also enroll in and complete the [Palmetto 2 Self-guided Onboarding](https://docs.rcd.clemson.edu/palmetto/onboarding/) training if you have not previously done so. You will be asked to sign in with your Clemson username, and then you will arrive at the Dashboard. Feel free to explore the many features, then go to Interactive Apps -> Jupyter Notebook. This form will allow you to provision a JupyterLab instance. Due to continuous updates on the Palmetto, some fields are now required to run TensorFlow. Here are some required and recommended settings for getting started (any fields not shown below can be left blank):
 
 [comment]: <> (- 1 CPU)
 [comment]: <> (- 15 GB memory)
@@ -47,17 +47,18 @@ __Recommended__ (These can be varied based on computational needs)
 - Walltime: However long you plan to use the notebook or node
 - Queue: ```work1```
 
+Note that we may not always need to request GPUs in our sessions, and we should avoid requesting them if we don't need them. You do need to request one for this one-off environment setup process.
 
-Select "Launch" and wait for your node to be provisioned. You may have to refresh the page, but when it's ready, you will see a "Connect to Jupyter" button that will take you to your JupyterLab instance. JupyterLab is the central hub from which you can do everything you need -- browse files, edit files, run a terminal or notebook, view images, and so on.
+Select "Launch" and wait for your node to be provisioned. You may need to refresh the page, but when it's ready, you will see a "Connect to Jupyter" button that takes you to your JupyterLab instance. JupyterLab is the central hub from which you can do everything you need -- browse files, edit files, run a terminal or notebook, view images, and so on.
 
 ### Create an Anaconda environment
 
-Our Jupyter notebooks use Python, so we will create an Anaconda environment to manage the Python packages required by the notebooks. From the File Browser, click the "+" icon and open a new terminal. Run `module list` to see what modules you have loaded. You may see the `anaconda3` module, but we need `anaconda3/2023.09-0` specifically, so run these commands:
+Our Jupyter notebooks use Python, so we will create an Anaconda environment to manage the Python packages they require. From the File Browser, click the "+" icon and open a new terminal. Run `module list` to see what modules you have loaded. You may see the `anaconda3` module, but we need `anaconda3/2023.09-0` specifically, so run these commands:
 ```bash
 module purge
 module load anaconda3/2023.09-0 gcc/14.2.0 cuda/12.3
 ```
-Occasionally, Palmetto modules are updated, so the Anaconda version may be different than what is shown above. If this Anaconda version does not work, use the command `module avail` to list the current modules and their versions on the Palmetto.  
+Occasionally, Palmetto modules are updated, so the Anaconda version may differ from what is shown above. If this Anaconda version does not work, use the command `module avail` to list the current modules and their versions on the Palmetto.  
 
 You should also append these commands to your `.bashrc` file in your home directory so that they are run every time you log in.
 
@@ -67,18 +68,8 @@ wget https://raw.githubusercontent.com/cufctl/mlbd/master/environment.yml
 conda env create -f environment.yml
 ```
 
-Note: Conda's package manager seems to be breaking the TensorFlow installation, so we will install TensorFlow in the next step with pip once we are inside our environment. Like the other installations, TensorFlow only has to be installed once.
-
-This command will ask you to confirm the installation, and then it will take a while to install everything. Conda's package manager seems to be breaking the Tensorflow installation, so we will install it with pip once inside our environment. Once it finishes, you will have an environment which you can use like so:
+This command will ask you to confirm the installation, and then it will take a while to install everything. If everything has been done properly until now, the command will install PyTorch, TensorFlow, and other libraries. Once it finishes, run this command so you can use the created environment in a Jupyter notebook afterward.
 ```bash
-# Enter the environment
-source activate dlbd
-
-# Install TensorFlow
-pip install tensorflow[and-cuda]
-
-# Install PyTorch
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 
 ```
 <!-- #You must run this command in order to use it in a Jupyter notebook -->
@@ -87,12 +78,12 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 
 ```
 #You must run this command in order to use it in a Jupyter notebook
-python -m ipykernel install --user --name dlbd --display-name "Python 3 (mlbd)"
+python -m ipykernel install --user --name dlbd --display-name "Python 3 (dlbd)"
 ```
 
 ### Create a Jupyter kernel for your environment
 
-Now, click the "+" icon again and look for a notebook option called "Python 3 (mlbd)". Creating a notebook with this kernel will allow you to use any Python packages installed in your Anaconda environment.
+Now, click the "+" icon again and look for a notebook option called "Python 3 (dlbd)". Creating a notebook with this kernel will allow you to use any Python packages installed in your Anaconda environment.
 
 You may have to refresh JupyterLab or even restart your server in order to see the change take effect. To restart your server, go to "Control Panel", select "Stop My Server", wait for the button to disappear, and then select "My Server" to request a new compute node.
 
