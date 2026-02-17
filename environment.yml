@@ -1,17 +1,25 @@
 # You can use this file to create a conda environment for this pipeline:
 #   conda env create -f environment.yml
-name: mlbd
+name: dlbd
 channels:
   - defaults
 dependencies:
-  - jupyterlab
+  - python=3.12
   - ipykernel
   - ipython
   - ipywidgets
-  - pip
-  - python=3.12
   - matplotlib
   - scikit-learn
   - scikit-image
   - pandas
   - seaborn
+  - pip
+  - pip:
+      # Make pip pull PyTorch CUDA wheels (instead of CPU wheels from PyPI)
+      - --index-url https://download.pytorch.org/whl/cu121
+      - torch
+      - torchvision
+      - torchaudio
+
+      # TensorFlow GPU (pulls NVIDIA CUDA libs via pip on Linux)
+      - "tensorflow[and-cuda]"
