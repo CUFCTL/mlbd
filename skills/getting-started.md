@@ -72,7 +72,7 @@ Note: Conda's package manager seems to be breaking the TensorFlow installation, 
 This command will ask you to confirm the installation, and then it will take a while to install everything. Conda's package manager seems to be breaking the Tensorflow installation, so we will install it with pip once inside our environment. Once it finishes, you will have an environment which you can use like so:
 ```bash
 # Enter the environment
-source activate mlbd
+source activate dlbd
 
 # Install TensorFlow
 pip install tensorflow[and-cuda]
@@ -82,12 +82,12 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 
 ```
 <!-- #You must run this command in order to use it in a Jupyter notebook -->
-<!-- python -m ipykernel install --user --name mlbd --display-name "Python 3 (mlbd)" -->
+<!-- python -m ipykernel install --user --name dlbd --display-name "Python 3 (mlbd)" -->
 <!-- This is a comment that will not be rendered in the output. -->
 
 ```
 #You must run this command in order to use it in a Jupyter notebook
-python -m ipykernel install --user --name mlbd --display-name "Python 3 (mlbd)"
+python -m ipykernel install --user --name dlbd --display-name "Python 3 (mlbd)"
 ```
 
 ### Create a Jupyter kernel for your environment
