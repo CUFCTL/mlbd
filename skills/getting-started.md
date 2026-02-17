@@ -68,15 +68,16 @@ wget https://raw.githubusercontent.com/cufctl/mlbd/master/environment.yml
 conda env create -f environment.yml
 ```
 
-This command will ask you to confirm the installation, and then it will take a while to install everything. If everything has been done properly until now, the command will install packages and libraries including PyTorch and TensorFlow. Once it finishes, run this command to use the created environment in a Jupyter notebook afterward. To activate the newly created environment, run:
+This command will ask you to confirm the installation, and then it will take a while to install everything. If everything has been done properly until now, the command will install packages and libraries including PyTorch and TensorFlow. Once it finishes, run this command to use the created environment in a Jupyter notebook afterward.
 ```bash
-source activate dlbd
+
 ```
 <!-- #You must run this command in order to use it in a Jupyter notebook -->
 <!-- python -m ipykernel install --user --name dlbd --display-name "Python 3 (mlbd)" -->
 <!-- This is a comment that will not be rendered in the output. -->
 
 ```
+source activate dlbd
 #You must run this command in order to use it in a Jupyter notebook
 python -m ipykernel install --user --name dlbd --display-name "Python 3 (dlbd)"
 ```
