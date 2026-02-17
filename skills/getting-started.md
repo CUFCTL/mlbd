@@ -75,7 +75,10 @@ This command will ask you to confirm the installation, and then it will take a w
 source activate mlbd
 
 # Install TensorFlow
-pip install tensorflowtensorflow[and-cuda]
+pip install tensorflow[and-cuda]
+
+# Install PyTorch
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 
 ```
 <!-- #You must run this command in order to use it in a Jupyter notebook -->
